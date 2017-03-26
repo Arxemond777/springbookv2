@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--<bean id="messageRenderer"
+        class="ch3.page_73_inject_via_method_installstall.xml.StandardOutMessageRenderer"
+        p:messageProvider-ref="messageProvider"/>-->
+    <!--Аналог c spring 2.5 используется верхний, закомиченный вариант-->
+    <bean id="messageRenderer"
+          class="ch3.page_73_inject_via_method_install.xml.StandardOutMessageRenderer">
+          <property name="messageProvider" ref="messageProvider" />
+    </bean>
+
+    <bean id="messageProvider" 
+        class="ch3.page_73_inject_via_method_install.xml.HelloWorldMessageProvider"/>
+</beans>
