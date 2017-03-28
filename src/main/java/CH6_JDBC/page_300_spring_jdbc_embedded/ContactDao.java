@@ -1,4 +1,4 @@
-package com.apress.prospring4.ch6;
+package CH6_JDBC.page_300_spring_jdbc_embedded;
 
 public interface ContactDao {
     String findFirstNameById(Long id);
