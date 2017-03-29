@@ -12,7 +12,8 @@ import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 
-public class JdbcContactDao implements ContactDao, InitializingBean {
+public class JdbcContactDao implements ContactDao, InitializingBean
+{
     private DataSource dataSource;
     private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 
@@ -22,16 +23,16 @@ public class JdbcContactDao implements ContactDao, InitializingBean {
 
         Map<String, Object> namedParameters = new HashMap<String, Object>();
         namedParameters.put("contactId", id);
-    
-        return namedParameterJdbcTemplate.queryForObject(sql, 
-            namedParameters, String.class); 
+
+        return namedParameterJdbcTemplate.queryForObject(sql,
+                namedParameters, String.class);
     }
 
     public void setDataSource(DataSource dataSource) {
         this.dataSource = dataSource;
 
-        NamedParameterJdbcTemplate namedParameterJdbcTemplate = 
-            new NamedParameterJdbcTemplate(dataSource);
+        NamedParameterJdbcTemplate namedParameterJdbcTemplate =
+                new NamedParameterJdbcTemplate(dataSource);
 
         this.namedParameterJdbcTemplate = namedParameterJdbcTemplate;
     }

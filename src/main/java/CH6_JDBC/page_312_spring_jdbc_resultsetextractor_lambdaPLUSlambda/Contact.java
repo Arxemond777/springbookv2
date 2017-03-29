@@ -4,7 +4,8 @@ import java.io.Serializable;
 import java.sql.Date;
 import java.util.List;
 
-public class Contact implements Serializable {
+public class Contact implements Serializable
+{
     private Long id;
     private String firstName;
     private String lastName;
@@ -52,7 +53,7 @@ public class Contact implements Serializable {
     }
 
     public String toString() {
-        return "Contact - Id: " + id + ", First name: " + firstName 
-            + ", Last name: " + lastName + ", Birthday: " + birthDate;
+        return "Contact - Id: " + id + ", First name: " + firstName
+                + ", Last name: " + lastName + ", Birthday: " + birthDate;
     }
 }

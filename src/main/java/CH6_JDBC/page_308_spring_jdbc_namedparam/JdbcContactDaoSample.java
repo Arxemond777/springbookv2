@@ -2,7 +2,8 @@ package CH6_JDBC.page_308_spring_jdbc_namedparam;
 
 import org.springframework.context.support.GenericXmlApplicationContext;
 
-public class JdbcContactDaoSample {
+public class JdbcContactDaoSample
+{
     public static void main(String[] args) {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
         ctx.load("classpath:META-INF/spring/CH6_JDBC/page_308_spring_jdbc_namedparam/app-context-xml.xml");
