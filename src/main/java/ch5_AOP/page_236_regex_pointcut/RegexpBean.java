@@ -1,6 +1,7 @@
 package ch5_AOP.page_236_regex_pointcut;
 
-public class RegexpBean {
+public class RegexpBean
+{
     public void foo1() {
         System.out.println("foo1");
     }

@@ -2,11 +2,12 @@ package ch4_detailed_configure_spring.page_151_factory_bean_and_factory_method_a
 
 import java.security.MessageDigest;
 
-public class MessageDigestFactory {
+public class MessageDigestFactory
+{
     private String algorithmName = "MD5";
 
     public MessageDigest createInstance() throws Exception {
-       return MessageDigest.getInstance(algorithmName);
+        return MessageDigest.getInstance(algorithmName);
     }
 
     public void setAlgorithmName(String algorithmName) {

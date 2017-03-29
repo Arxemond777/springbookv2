@@ -5,7 +5,8 @@ import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
-public class SimpleBeanWithInterface implements InitializingBean {
+public class SimpleBeanWithInterface implements InitializingBean
+{
     private static final String DEFAULT_NAME = "Luke Skywalker";
 
     private String name;
@@ -33,8 +34,8 @@ public class SimpleBeanWithInterface implements InitializingBean {
 
         if (age == Integer.MIN_VALUE) {
             throw new IllegalArgumentException(
-                    "You must set the age property of any beans of type " 
-                    + SimpleBeanWithInterface.class);
+                    "You must set the age property of any beans of type "
+                            + SimpleBeanWithInterface.class);
         }
     }
 

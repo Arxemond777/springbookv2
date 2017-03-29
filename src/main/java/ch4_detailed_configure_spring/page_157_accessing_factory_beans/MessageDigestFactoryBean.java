@@ -5,14 +5,15 @@ import org.springframework.beans.factory.InitializingBean;
 
 import java.security.MessageDigest;
 
-public class MessageDigestFactoryBean implements 
-      FactoryBean<MessageDigest>, InitializingBean {
+public class MessageDigestFactoryBean implements
+        FactoryBean<MessageDigest>, InitializingBean
+{
     private String algorithmName = "MD5";
 
     private MessageDigest messageDigest = null;
 
     public MessageDigest getObject() throws Exception {
-       return messageDigest;
+        return messageDigest;
     }
 
     public Class<MessageDigest> getObjectType() {

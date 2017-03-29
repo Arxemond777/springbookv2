@@ -5,7 +5,8 @@ import org.springframework.aop.framework.ProxyFactory;
 
 import java.lang.reflect.Method;
 
-public class SimpleBeforeAdvice implements MethodBeforeAdvice {
+public class SimpleBeforeAdvice implements MethodBeforeAdvice
+{
     public static void main(String[] args) {
         MessageWriter target = new MessageWriter();
 

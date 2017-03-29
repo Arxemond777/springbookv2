@@ -1,6 +1,7 @@
 package ch5_AOP.page_212_security;
 
-public class SecurityManager {
+public class SecurityManager
+{
     private static ThreadLocal<UserInfo> threadLocal = new ThreadLocal<UserInfo>();
 
     public void login(String userName, String password) {

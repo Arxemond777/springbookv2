@@ -1,6 +1,7 @@
 package ch4_detailed_configure_spring.page_163_custom_property_editor;
 
-public class Name {
+public class Name
+{
     private String firstName;
     private String lastName;
 

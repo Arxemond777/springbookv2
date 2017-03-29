@@ -12,9 +12,9 @@
     <!--Аналог c spring 2.5 используется верхний, закомиченный вариант-->
     <bean id="messageRenderer"
           class="ch3.page_73_inject_via_method_install.xml.StandardOutMessageRenderer">
-          <property name="messageProvider" ref="messageProvider" />
+        <property name="messageProvider" ref="messageProvider"/>
     </bean>
 
-    <bean id="messageProvider" 
-        class="ch3.page_73_inject_via_method_install.xml.HelloWorldMessageProvider"/>
+    <bean id="messageProvider"
+          class="ch3.page_73_inject_via_method_install.xml.HelloWorldMessageProvider"/>
 </beans>

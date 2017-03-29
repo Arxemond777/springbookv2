@@ -5,7 +5,8 @@ import org.springframework.aop.aspectj.AspectJExpressionPointcut;
 import org.springframework.aop.framework.ProxyFactory;
 import org.springframework.aop.support.DefaultPointcutAdvisor;
 
-public class AspectjexpPointcutExample {
+public class AspectjexpPointcutExample
+{
     public static void main(String[] args) {
         AspectjexpBean target = new AspectjexpBean();
 

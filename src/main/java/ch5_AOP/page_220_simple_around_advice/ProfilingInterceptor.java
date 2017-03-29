@@ -6,7 +6,8 @@ import org.springframework.util.StopWatch;
 
 import java.lang.reflect.Method;
 
-public class ProfilingInterceptor implements MethodInterceptor {
+public class ProfilingInterceptor implements MethodInterceptor
+{
     @Override
     public Object invoke(MethodInvocation invocation) throws Throwable {
         StopWatch sw = new StopWatch();
@@ -25,7 +26,7 @@ public class ProfilingInterceptor implements MethodInterceptor {
         Object[] args = invocation.getArguments();
 
         System.out.println("Executed method: " + m.getName());
-        System.out.println("On object of type: " + 
+        System.out.println("On object of type: " +
                 target.getClass().getName());
 
         System.out.println("With arguments:");

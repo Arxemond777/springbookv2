@@ -6,10 +6,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
           http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<bean id="messageRenderer"
-      class="ch3.ch3_simple.xml.StandardOutMessageRenderer"
-      p:messageProvider-ref="messageProvider"/>
+    <bean id="messageRenderer"
+          class="ch3.ch3_simple.xml.StandardOutMessageRenderer"
+          p:messageProvider-ref="messageProvider"/>
 
-<bean id="messageProvider"
-      class="ch3.ch3_simple.xml.HelloWorldMessageProvider"/>
+    <bean id="messageProvider"
+          class="ch3.ch3_simple.xml.HelloWorldMessageProvider"/>
 </beans>

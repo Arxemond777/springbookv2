@@ -5,7 +5,8 @@ import org.springframework.aop.framework.ProxyFactory;
 import org.springframework.aop.support.DefaultPointcutAdvisor;
 import org.springframework.aop.support.JdkRegexpMethodPointcut;
 
-public class RegexpPointcutExample {
+public class RegexpPointcutExample
+{
     public static void main(String[] args) {
         RegexpBean target = new RegexpBean();
 

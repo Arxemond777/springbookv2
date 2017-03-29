@@ -5,12 +5,13 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.support.GenericApplicationContext;
 
-public class ShutdownHookBean implements ApplicationContextAware {
+public class ShutdownHookBean implements ApplicationContextAware
+{
     private ApplicationContext ctx;
 
     @Override
     public void setApplicationContext(ApplicationContext ctx)
-        throws BeansException {
+            throws BeansException {
 
         if (ctx instanceof GenericApplicationContext) {
             System.out.println("&&&&&&&&&&&&&&&&&&&&&");

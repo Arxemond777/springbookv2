@@ -1,6 +1,7 @@
 package ch5_AOP.page_266_proxyfactorybean;
 
-public class MyDependency {
+public class MyDependency
+{
     public void foo() {
         System.out.println("foo()");
     }

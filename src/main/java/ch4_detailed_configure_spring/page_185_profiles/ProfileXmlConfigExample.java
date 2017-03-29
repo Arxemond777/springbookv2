@@ -8,6 +8,7 @@ public class ProfileXmlConfigExample
 {
     /**
      * Можно так же запускать с использованием JVM аргумментов -Dspring.profiles.active="kindergarten"
+     *
      * @param args
      */
     public static void main(String[] args) {

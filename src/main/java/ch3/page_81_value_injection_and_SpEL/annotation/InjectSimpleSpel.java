@@ -5,7 +5,8 @@ import org.springframework.context.support.GenericXmlApplicationContext;
 import org.springframework.stereotype.Service;
 
 @Service("injectSimpleSpel")
-public class InjectSimpleSpel {
+public class InjectSimpleSpel
+{
     @Value("#{injectSimpleConfig.name}")
     private String name;
 
@@ -22,11 +23,11 @@ public class InjectSimpleSpel {
     private Long ageInSeconds;
 
     public String toString() {
-        return "Name: " + name + "\n" 
-            + "Age: " + age + "\n"
-            + "Age in Seconds: " + ageInSeconds + "\n" 
-            + "Height: " + height + "\n" 
-            + "Is Programmer?: " + programmer;
+        return "Name: " + name + "\n"
+                + "Age: " + age + "\n"
+                + "Age in Seconds: " + ageInSeconds + "\n"
+                + "Height: " + height + "\n"
+                + "Is Programmer?: " + programmer;
     }
 
     public static void main(String[] args) {
@@ -34,7 +35,7 @@ public class InjectSimpleSpel {
         ctx.load("classpath:META-INF/spring/app-context-annotation.xml");
         ctx.refresh();
 
-        InjectSimpleSpel simple = (InjectSimpleSpel)ctx.getBean("injectSimpleSpel");
+        InjectSimpleSpel simple = (InjectSimpleSpel) ctx.getBean("injectSimpleSpel");
         System.out.println(simple);
     }
 }

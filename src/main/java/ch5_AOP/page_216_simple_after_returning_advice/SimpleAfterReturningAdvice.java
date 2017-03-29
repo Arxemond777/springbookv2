@@ -5,7 +5,8 @@ import org.springframework.aop.framework.ProxyFactory;
 
 import java.lang.reflect.Method;
 
-public class SimpleAfterReturningAdvice implements AfterReturningAdvice {
+public class SimpleAfterReturningAdvice implements AfterReturningAdvice
+{
     public static void main(String[] args) {
         MessageWriter target = new MessageWriter();
 
@@ -19,8 +20,8 @@ public class SimpleAfterReturningAdvice implements AfterReturningAdvice {
     }
 
     @Override
-    public void afterReturning(Object returnValue, Method method, 
-             Object[] args, Object target) throws Throwable {
+    public void afterReturning(Object returnValue, Method method,
+                               Object[] args, Object target) throws Throwable {
         System.out.println("");
         System.out.println("After method: " + method.getName());
     }

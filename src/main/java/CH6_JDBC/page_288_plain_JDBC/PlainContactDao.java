@@ -8,8 +8,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
-    
-public class PlainContactDao implements ContactDao {
+
+public class PlainContactDao implements ContactDao
+{
     static {
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -20,8 +21,8 @@ public class PlainContactDao implements ContactDao {
 
     private Connection getConnection() throws SQLException {
         return DriverManager.getConnection(
-            "jdbc:mysql://localhost:3306/springBook",
-            "root", "123");
+                "jdbc:mysql://localhost:3306/springBook",
+                "root", "123");
     }
 
     private void closeConnection(Connection connection) {
@@ -45,8 +46,8 @@ public class PlainContactDao implements ContactDao {
         try {
             connection = getConnection();
 
-            PreparedStatement statement = 
-                connection.prepareStatement("select * from contact");
+            PreparedStatement statement =
+                    connection.prepareStatement("select * from contact");
 
             ResultSet resultSet = statement.executeQuery();
 
@@ -76,14 +77,14 @@ public class PlainContactDao implements ContactDao {
             connection = getConnection();
 
             PreparedStatement statement = connection.prepareStatement(
-              "insert into Contact (first_name, last_name, birth_date) values (?, ?, ?)"
-              , Statement.RETURN_GENERATED_KEYS);
+                    "insert into Contact (first_name, last_name, birth_date) values (?, ?, ?)"
+                    , Statement.RETURN_GENERATED_KEYS);
             statement.setString(1, contact.getFirstName());
             statement.setString(2, contact.getLastName());
             statement.setDate(3, contact.getBirthDate());
             statement.execute();
 
-            ResultSet generatedKeys = statement.getGeneratedKeys(); 
+            ResultSet generatedKeys = statement.getGeneratedKeys();
 
             if (generatedKeys.next()) {
                 contact.setId(generatedKeys.getLong(1));

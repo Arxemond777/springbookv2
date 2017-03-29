@@ -3,7 +3,8 @@ package ch3.page_101_method_injection;
 import org.springframework.context.support.GenericXmlApplicationContext;
 import org.springframework.util.StopWatch;
 
-public class LookupDemo {
+public class LookupDemo
+{
     public static void main(String[] args) {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
         ctx.load("classpath:META-INF/spring/ch3/page_101_method_injection/app-context-xml.xml");
@@ -21,7 +22,7 @@ public class LookupDemo {
         MyHelper helper2 = bean.getMyHelper();
 
         System.out.println("Helper Instances the Same?: "
-            + (helper1 == helper2));
+                + (helper1 == helper2));
 
         StopWatch stopWatch = new StopWatch();
         stopWatch.start("lookupDemo");

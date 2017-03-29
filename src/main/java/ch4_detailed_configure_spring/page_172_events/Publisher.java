@@ -5,7 +5,8 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class Publisher implements ApplicationContextAware {
+public class Publisher implements ApplicationContextAware
+{
     private ApplicationContext ctx;
 
     public void setApplicationContext(ApplicationContext applicationContext)

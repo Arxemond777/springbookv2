@@ -1,6 +1,7 @@
 package ch5_AOP.page_231_dynamic_pointciut;
 
-public class SampleBean {
+public class SampleBean
+{
     public void foo(int x) {
         System.out.println("Invoked foo() with: " + x);
     }

@@ -2,7 +2,8 @@ package ch3.page_81_value_injection_and_SpEL.xml;
 
 import org.springframework.context.support.GenericXmlApplicationContext;
 
-public class InjectSimple {
+public class InjectSimple
+{
     private String name;
     private int age;
     private float height;
@@ -16,35 +17,35 @@ public class InjectSimple {
 
         System.out.println("Поправить в конфиках имя injectSimple, можно рабочий глянуть в антоциях");
         System.exit(0);
-        InjectSimple simple = (InjectSimple)ctx.getBean("injectSimple");
-        System.out.println(simple); 
+        InjectSimple simple = (InjectSimple) ctx.getBean("injectSimple");
+        System.out.println(simple);
     }
 
     public void setAgeInSeconds(Long ageInSeconds) {
-        this.ageInSeconds = ageInSeconds; 
+        this.ageInSeconds = ageInSeconds;
     }
 
     public void setProgrammer(boolean programmer) {
-        this.programmer = programmer; 
+        this.programmer = programmer;
     }
 
     public void setAge(int age) {
-        this.age = age; 
+        this.age = age;
     }
 
     public void setHeight(float height) {
-        this.height = height; 
+        this.height = height;
     }
 
     public void setName(String name) {
-        this.name = name; 
+        this.name = name;
     }
 
     public String toString() {
-        return "Name: " + name + "\n" 
-            + "Age: " + age + "\n"
-            + "Age in Seconds: " + ageInSeconds + "\n" 
-            + "Height: " + height + "\n" 
-            + "Is Programmer?: " + programmer;
+        return "Name: " + name + "\n"
+                + "Age: " + age + "\n"
+                + "Age in Seconds: " + ageInSeconds + "\n"
+                + "Height: " + height + "\n"
+                + "Is Programmer?: " + programmer;
     }
 }

@@ -11,8 +11,8 @@
           http://www.springframework.org/schema/util
           http://www.springframework.org/schema/util/spring-util.xsd">
 
-    <context:component-scan 
-          base-package="ch3.page_94_collections.annotation"/>
+    <context:component-scan
+            base-package="ch3.page_94_collections.annotation"/>
 
     <util:map id="map" map-class="java.util.HashMap">
         <entry key="someValue">
@@ -22,19 +22,19 @@
             <ref bean="oracle"/>
         </entry>
     </util:map>
-    
+
     <util:properties id="props">
         <prop key="firstName">Chris</prop>
         <prop key="secondName">Schaefer</prop>
     </util:properties>
-    
+
     <util:set id="set">
         <value>Hello World!</value>
-        <ref bean="oracle"/>   
-    </util:set>	
-    
+        <ref bean="oracle"/>
+    </util:set>
+
     <util:list id="list">
         <value>Hello World!</value>
-        <ref bean="oracle"/> 
+        <ref bean="oracle"/>
     </util:list>
 </beans>

@@ -5,9 +5,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service("messageProvider")
-public class ConfigurableMessageProvider implements MessageProvider {
+public class ConfigurableMessageProvider implements MessageProvider
+{
     private String message;
-    
+
     @Autowired
     public ConfigurableMessageProvider(String message) {
         this.message = message;
@@ -15,6 +16,6 @@ public class ConfigurableMessageProvider implements MessageProvider {
 
     @Override
     public String getMessage() {
-    	return this.message;
+        return this.message;
     }
 }

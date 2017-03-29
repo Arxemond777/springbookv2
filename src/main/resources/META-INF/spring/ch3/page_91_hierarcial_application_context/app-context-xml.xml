@@ -10,18 +10,18 @@
 
     <bean id="target1"
           class="ch3.page_91_hierarcial_application_context.SimpleTarget"
-          p:val-ref="injectBeanParent" />
+          p:val-ref="injectBeanParent"/>
 
     <bean id="target2"
           class="ch3.page_91_hierarcial_application_context.SimpleTarget"
-          p:val-ref="injectBean" />
+          p:val-ref="injectBean"/>
 
     <bean id="target3"
           class="ch3.page_91_hierarcial_application_context.SimpleTarget">
-          <property name="val">
-              <ref parent="injectBean" />
-          </property>
+        <property name="val">
+            <ref parent="injectBean"/>
+        </property>
     </bean>
 
-    <bean id="injectBean" class="java.lang.String" c:_0="Chile In Bean" />
+    <bean id="injectBean" class="java.lang.String" c:_0="Chile In Bean"/>
 </beans>

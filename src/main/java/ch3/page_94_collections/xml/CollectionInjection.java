@@ -7,7 +7,8 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 
-public class CollectionInjection {
+public class CollectionInjection
+{
     private Map<String, Object> map;
     private Properties props;
     private Set set;
@@ -16,7 +17,7 @@ public class CollectionInjection {
     public static void main(String[] args) {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
         ctx.load("classpath:META-INF/spring/ch3/page_94_collections/app-context-xml.xml");
-        ctx.refresh();  
+        ctx.refresh();
 
         CollectionInjection instance = (CollectionInjection) ctx.getBean("injectCollection");
         instance.displayInfo();
@@ -30,7 +31,7 @@ public class CollectionInjection {
         this.set = set;
     }
 
-    public void setMap(Map <String, Object> map) {
+    public void setMap(Map<String, Object> map) {
         this.map = map;
     }
 
@@ -41,24 +42,24 @@ public class CollectionInjection {
     public void displayInfo() {
         System.out.println("Map contents:\n");
 
-        for (Map.Entry<String, Object> entry: map.entrySet()) {
+        for (Map.Entry<String, Object> entry : map.entrySet()) {
             System.out.println("Key: " + entry.getKey() + " - Value: " + entry.getValue());
         }
 
         System.out.println("\nProperties contents:\n");
 
-        for (Map.Entry<Object, Object> entry: props.entrySet()) {
+        for (Map.Entry<Object, Object> entry : props.entrySet()) {
             System.out.println("Key: " + entry.getKey() + " - Value: " + entry.getValue());
         }
 
         System.out.println("\nSet contents:\n");
 
-        for (Object obj: set) {
+        for (Object obj : set) {
             System.out.println("Value: " + obj);
         }
         System.out.println("\nList contents:\n");
 
-        for (Object obj: list) {
+        for (Object obj : list) {
             System.out.println("Value: " + obj);
         }
     }

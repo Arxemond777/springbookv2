@@ -1,6 +1,7 @@
 package ch5_AOP.page_250_composible_pointcut;
 
-public class SampleBean {
+public class SampleBean
+{
     public String getName() {
         return "Chris Schaefer";
     }

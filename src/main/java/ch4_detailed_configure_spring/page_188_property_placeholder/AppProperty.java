@@ -1,6 +1,7 @@
 package ch4_detailed_configure_spring.page_188_property_placeholder;
 
-public class AppProperty {
+public class AppProperty
+{
     private String applicationHome;
     private String userHome;
 

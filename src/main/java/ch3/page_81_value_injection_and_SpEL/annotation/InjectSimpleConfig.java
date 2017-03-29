@@ -3,7 +3,8 @@ package ch3.page_81_value_injection_and_SpEL.annotation;
 import org.springframework.stereotype.Component;
 
 @Component("injectSimpleConfig")
-public class InjectSimpleConfig {
+public class InjectSimpleConfig
+{
     private String name = "Chris Schaefer";
     private int age = 32;
     private float height = 1.778f;

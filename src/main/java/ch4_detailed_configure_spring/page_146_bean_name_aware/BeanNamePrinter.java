@@ -4,7 +4,8 @@ import org.springframework.beans.factory.BeanNameAware;
 
 import java.util.Date;
 
-public class BeanNamePrinter implements BeanNameAware {
+public class BeanNamePrinter implements BeanNameAware
+{
     private String beanName;
 
     public void setBeanName(String beanName) {

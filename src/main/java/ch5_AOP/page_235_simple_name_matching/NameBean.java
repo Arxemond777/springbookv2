@@ -1,6 +1,7 @@
 package ch5_AOP.page_235_simple_name_matching;
 
-public class NameBean {
+public class NameBean
+{
     public void foo() {
         System.out.println("foo");
     }

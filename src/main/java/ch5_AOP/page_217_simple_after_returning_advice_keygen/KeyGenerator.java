@@ -2,7 +2,8 @@ package ch5_AOP.page_217_simple_after_returning_advice_keygen;
 
 import java.util.Random;
 
-public class KeyGenerator {
+public class KeyGenerator
+{
     protected static final long WEAK_KEY = 0xFFFFFFF0000000L;
     protected static final long STRONG_KEY = 0xACDF03F590AE56L;
 

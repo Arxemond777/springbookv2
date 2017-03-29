@@ -8,7 +8,7 @@ public class StandartOutMessageRender implements MessageRender
         if (this.messageProvider == null)
             throw new RuntimeException(
                     "You must set the property messageProvider of class: "
-                    + StandartOutMessageRender.class.getName()
+                            + StandartOutMessageRender.class.getName()
             );
 
         System.out.println(messageProvider.getMessage());

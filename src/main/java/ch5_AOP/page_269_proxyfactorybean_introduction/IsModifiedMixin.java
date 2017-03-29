@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
-public class IsModifiedMixin extends DelegatingIntroductionInterceptor 
+public class IsModifiedMixin extends DelegatingIntroductionInterceptor
         implements IsModified
 {
     private boolean isModified = false;
@@ -23,7 +23,7 @@ public class IsModifiedMixin extends DelegatingIntroductionInterceptor
     public Object invoke(MethodInvocation invocation) throws Throwable {
         if (!isModified) {
             if ((invocation.getMethod().getName().startsWith("set"))
-                && (invocation.getArguments().length == 1)) {
+                    && (invocation.getArguments().length == 1)) {
 
                 Method getter = getGetter(invocation.getMethod());
 
@@ -31,11 +31,11 @@ public class IsModifiedMixin extends DelegatingIntroductionInterceptor
                     Object newVal = invocation.getArguments()[0];
                     Object oldVal = getter.invoke(invocation.getThis(), null);
 
-                    if((newVal == null) && (oldVal == null)) {
+                    if ((newVal == null) && (oldVal == null)) {
                         isModified = false;
-                    } else if((newVal == null) && (oldVal != null)) {
+                    } else if ((newVal == null) && (oldVal != null)) {
                         isModified = true;
-                    } else if((newVal != null) && (oldVal == null)) {
+                    } else if ((newVal != null) && (oldVal == null)) {
                         isModified = true;
                     } else {
                         isModified = (!newVal.equals(oldVal));

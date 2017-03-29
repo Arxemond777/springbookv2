@@ -1,6 +1,7 @@
 package ch5_AOP.page_212_security;
-    
-public class UserInfo {
+
+public class UserInfo
+{
     private String userName;
     private String password;
 

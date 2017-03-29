@@ -7,14 +7,14 @@ public class StandardOutMessageRenderer implements MessageRenderer
     public void render() {
         if (messageProvider == null) {
             throw new RuntimeException(
-                "You must set the property messageProvider of class:"
-                    + StandardOutMessageRenderer.class.getName());
+                    "You must set the property messageProvider of class:"
+                            + StandardOutMessageRenderer.class.getName());
         }
 
         System.out.println(messageProvider.getMessage());
     }
 
-    public void setMessageProvider(MessageProvider provider){
+    public void setMessageProvider(MessageProvider provider) {
         this.messageProvider = provider;
     }
 

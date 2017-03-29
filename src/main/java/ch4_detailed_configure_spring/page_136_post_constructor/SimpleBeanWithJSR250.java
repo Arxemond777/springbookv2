@@ -6,7 +6,8 @@ import org.springframework.context.support.GenericXmlApplicationContext;
 
 import javax.annotation.PostConstruct;
 
-public class SimpleBeanWithJSR250 {
+public class SimpleBeanWithJSR250
+{
     private static final String DEFAULT_NAME = "Luke Skywalker";
 
     private String name;
@@ -24,15 +25,15 @@ public class SimpleBeanWithJSR250 {
     public void init() throws Exception {
         System.out.println("Initializing bean");
 
-       if (name == null) {
+        if (name == null) {
             System.out.println("Using default name");
             name = DEFAULT_NAME;
         }
 
         if (age == Integer.MIN_VALUE) {
             throw new IllegalArgumentException(
-                    "You must set the age property of any beans of type " + 
-                    SimpleBeanWithJSR250.class);
+                    "You must set the age property of any beans of type " +
+                            SimpleBeanWithJSR250.class);
         }
     }
 

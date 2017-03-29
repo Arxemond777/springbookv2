@@ -16,7 +16,7 @@ public class JdbcContactDao implements ContactDao, InitializingBean
     public String findFirstNameById(Long id) {
         return jdbcTemplate.queryForObject(
                 "select first_name from contact where id = ?",
-                new Object[]{id}, String.class);
+                new Object[]{id}, String.class); //Кроме Object можно так же запрашивать Long и Integer
     }
 
     //Самый первый при инициализации бина

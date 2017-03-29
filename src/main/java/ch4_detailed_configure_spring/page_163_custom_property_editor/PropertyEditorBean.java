@@ -16,7 +16,8 @@ import java.util.Locale;
 import java.util.Properties;
 import java.util.regex.Pattern;
 
-public class PropertyEditorBean {
+public class PropertyEditorBean
+{
     private byte[] bytes;                 // ByteArrayPropertyEditor
     private Class cls;                    // ClassEditor
     private Boolean trueOrFalse;          // CustomBooleanEditor
@@ -68,11 +69,11 @@ public class PropertyEditorBean {
 
     public void setStringList(List<String> stringList) {
         System.out.println("Setting string list with size: "
-            + stringList.size());
+                + stringList.size());
 
         this.stringList = stringList;
 
-        for (String string: stringList) {
+        for (String string : stringList) {
             System.out.println("String member: " + string);
         }
     }
@@ -102,12 +103,13 @@ public class PropertyEditorBean {
         this.trimString = trimString;
     }
 
-    public static class CustomPropertyEditorRegistrar implements PropertyEditorRegistrar { 
+    public static class CustomPropertyEditorRegistrar implements PropertyEditorRegistrar
+    {
         @Override
         public void registerCustomEditors(PropertyEditorRegistry registry) {
             SimpleDateFormat dateFormatter = new SimpleDateFormat("MM/dd/yyyy");
-            registry.registerCustomEditor(Date.class, 
-                     new CustomDateEditor(dateFormatter, true));
+            registry.registerCustomEditor(Date.class,
+                    new CustomDateEditor(dateFormatter, true));
 
             registry.registerCustomEditor(String.class, new StringTrimmerEditor(true));
         }
@@ -122,6 +124,6 @@ public class PropertyEditorBean {
         ctx.refresh();
 
         PropertyEditorBean bean =
-            (PropertyEditorBean) ctx.getBean("builtInSample");
+                (PropertyEditorBean) ctx.getBean("builtInSample");
     }
 }

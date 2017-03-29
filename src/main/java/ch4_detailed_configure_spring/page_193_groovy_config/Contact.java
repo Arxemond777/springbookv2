@@ -1,6 +1,7 @@
 package ch4_detailed_configure_spring.page_193_groovy_config;
 
-public class Contact {
+public class Contact
+{
     private String firstName;
     private String lastName;
     private int age;

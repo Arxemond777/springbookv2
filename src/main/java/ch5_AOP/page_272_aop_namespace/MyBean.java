@@ -1,6 +1,7 @@
 package ch5_AOP.page_272_aop_namespace;
 
-public class MyBean {
+public class MyBean
+{
     private MyDependency dep;
 
     public void execute() {

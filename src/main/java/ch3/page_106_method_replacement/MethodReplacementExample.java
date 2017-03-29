@@ -3,7 +3,8 @@ package ch3.page_106_method_replacement;
 import org.springframework.context.support.GenericXmlApplicationContext;
 import org.springframework.util.StopWatch;
 
-public class MethodReplacementExample {
+public class MethodReplacementExample
+{
     public static void main(String[] args) {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
         ctx.load("classpath:META-INF/spring/ch3/page_106_method_replacement/app-context-xml.xml");
@@ -32,5 +33,5 @@ public class MethodReplacementExample {
 
         System.out.println("1000000 invocations took: "
                 + stopWatch.getTotalTimeMillis() + " ms");
-    } 
+    }
 }

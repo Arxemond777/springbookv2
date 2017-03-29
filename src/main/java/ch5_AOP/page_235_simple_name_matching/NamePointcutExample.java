@@ -5,7 +5,8 @@ import org.springframework.aop.framework.ProxyFactory;
 import org.springframework.aop.support.DefaultPointcutAdvisor;
 import org.springframework.aop.support.NameMatchMethodPointcut;
 
-public class NamePointcutExample {
+public class NamePointcutExample
+{
     public static void main(String[] args) {
         NameBean target = new NameBean();
 
@@ -17,7 +18,7 @@ public class NamePointcutExample {
         ProxyFactory pf = new ProxyFactory();
         pf.setTarget(target);
         pf.addAdvisor(advisor);
-        NameBean proxy = (NameBean)pf.getProxy();
+        NameBean proxy = (NameBean) pf.getProxy();
 
         proxy.foo();
         proxy.foo(999);

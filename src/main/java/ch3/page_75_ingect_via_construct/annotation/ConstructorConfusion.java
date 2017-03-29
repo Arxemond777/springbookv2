@@ -6,7 +6,8 @@ import org.springframework.context.support.GenericXmlApplicationContext;
 import org.springframework.stereotype.Service;
 
 @Service("constructorConfusion")
-public class ConstructorConfusion {
+public class ConstructorConfusion
+{
     private String someValue;
 
     public ConstructorConfusion(String someValue) {
@@ -18,7 +19,7 @@ public class ConstructorConfusion {
     public ConstructorConfusion(@Value("90") int someValue) {
         System.out.println("ConstructorConfusion(int) called");
         this.someValue = "Number: " + Integer.toString(someValue);
-   }
+    }
 
     public static void main(String[] args) {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
@@ -26,10 +27,10 @@ public class ConstructorConfusion {
         ctx.refresh();
 
         ConstructorConfusion cc = (ConstructorConfusion) ctx.getBean("constructorConfusion");
-        System.out.println(cc); 
+        System.out.println(cc);
     }
 
     public String toString() {
-        return someValue; 
+        return someValue;
     }
 }

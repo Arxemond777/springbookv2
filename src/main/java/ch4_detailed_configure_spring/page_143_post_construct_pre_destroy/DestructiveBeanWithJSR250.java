@@ -7,18 +7,19 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import java.io.File;
 
-public class DestructiveBeanWithJSR250 {
+public class DestructiveBeanWithJSR250
+{
     private File file;
     private String filePath, test;
-    
+
     @PostConstruct
     public void afterPropertiesSet() throws Exception {
         System.out.println("Initializing Bean");
 
         if (filePath == null) {
             throw new IllegalArgumentException(
-                    "You must specify the filePath property of " + 
-                    DestructiveBeanWithJSR250.class);
+                    "You must specify the filePath property of " +
+                            DestructiveBeanWithJSR250.class);
         }
 
         this.file = new File(filePath);
@@ -31,7 +32,7 @@ public class DestructiveBeanWithJSR250 {
     public void destroy() {
         System.out.println("Destroying Bean");
 
-        if(!file.delete()) {
+        if (!file.delete()) {
             System.err.println("ERROR: failed to delete file.");
         }
 
@@ -54,10 +55,10 @@ public class DestructiveBeanWithJSR250 {
     public static void main(String[] args) throws Exception {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
         ctx.load("classpath:META-INF/spring/ch4_detailed_configure_spring/page_143_post_construct_pre_destroy/app-context-annotation.xml");
-        ctx.refresh(); 
+        ctx.refresh();
 
         DestructiveBeanWithJSR250 bean =
-            (DestructiveBeanWithJSR250) ctx.getBean("destructiveBean");
+                (DestructiveBeanWithJSR250) ctx.getBean("destructiveBean");
 
         System.out.println("Calling destroy()");
         ctx.destroy();

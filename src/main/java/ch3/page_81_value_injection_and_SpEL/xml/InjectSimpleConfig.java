@@ -1,6 +1,7 @@
 package ch3.page_81_value_injection_and_SpEL.xml;
 
-public class InjectSimpleConfig {
+public class InjectSimpleConfig
+{
     private String name = "Chris Schaefer";
     private int age = 32;
     private float height = 1.778f;
@@ -8,7 +9,7 @@ public class InjectSimpleConfig {
     private Long ageInSeconds = 1009843200L;
 
     public String getName() {
-    	return name;
+        return name;
     }
 
     public void setName(String name) {
@@ -16,7 +17,7 @@ public class InjectSimpleConfig {
     }
 
     public int getAge() {
-    	return age;
+        return age;
     }
 
     public void setAge(int age) {
@@ -24,7 +25,7 @@ public class InjectSimpleConfig {
     }
 
     public float getHeight() {
-    	return height;
+        return height;
     }
 
     public void setHeight(float height) {
@@ -32,7 +33,7 @@ public class InjectSimpleConfig {
     }
 
     public boolean isProgrammer() {
-    	return programmer;
+        return programmer;
     }
 
     public void setIsProgrammer(boolean programmer) {
@@ -40,7 +41,7 @@ public class InjectSimpleConfig {
     }
 
     public Long getAgeInSeconds() {
-    	return ageInSeconds;
+        return ageInSeconds;
     }
 
     public void setAgeInSeconds(Long ageInSeconds) {

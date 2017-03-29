@@ -17,7 +17,8 @@ import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 
-public class JdbcContactDao implements ContactDao, InitializingBean {
+public class JdbcContactDao implements ContactDao, InitializingBean
+{
     private DataSource dataSource;
     private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 
@@ -27,16 +28,16 @@ public class JdbcContactDao implements ContactDao, InitializingBean {
 
         Map<String, Object> namedParameters = new HashMap<String, Object>();
         namedParameters.put("contactId", id);
-    
-        return namedParameterJdbcTemplate.queryForObject(sql, 
-            namedParameters, String.class); 
+
+        return namedParameterJdbcTemplate.queryForObject(sql,
+                namedParameters, String.class);
     }
 
     @Override
     public List<Contact> findAllWithDetail() {
-        String sql = "select c.id, c.first_name, c.last_name, c.birth_date" + 
-                     ", t.id as contact_tel_id, t.tel_type, t.tel_number from contact c " + 
-                     "left join contact_tel_detail t on c.id = t.contact_id";
+        String sql = "select c.id, c.first_name, c.last_name, c.birth_date" +
+                ", t.id as contact_tel_id, t.tel_type, t.tel_number from contact c " +
+                "left join contact_tel_detail t on c.id = t.contact_id";
 
         return namedParameterJdbcTemplate.query(sql, new ContactWithDetailExtractor());
     }
@@ -44,8 +45,8 @@ public class JdbcContactDao implements ContactDao, InitializingBean {
     public void setDataSource(DataSource dataSource) {
         this.dataSource = dataSource;
 
-        NamedParameterJdbcTemplate namedParameterJdbcTemplate = 
-            new NamedParameterJdbcTemplate(dataSource);
+        NamedParameterJdbcTemplate namedParameterJdbcTemplate =
+                new NamedParameterJdbcTemplate(dataSource);
 
         this.namedParameterJdbcTemplate = namedParameterJdbcTemplate;
     }
@@ -61,11 +62,12 @@ public class JdbcContactDao implements ContactDao, InitializingBean {
         }
     }
 
-    private static final class ContactWithDetailExtractor implements     
-                                                          ResultSetExtractor<List<Contact>> {
+    private static final class ContactWithDetailExtractor implements
+            ResultSetExtractor<List<Contact>>
+    {
         @Override
         public List<Contact> extractData(ResultSet rs) throws SQLException,
-                                                              DataAccessException {
+                DataAccessException {
             Map<Long, Contact> map = new HashMap<Long, Contact>();
             Contact contact = null;
 
@@ -95,8 +97,8 @@ public class JdbcContactDao implements ContactDao, InitializingBean {
                 }
             }
 
-            return new ArrayList<Contact> (map.values());
-        } 
+            return new ArrayList<Contact>(map.values());
+        }
     }
 
 }

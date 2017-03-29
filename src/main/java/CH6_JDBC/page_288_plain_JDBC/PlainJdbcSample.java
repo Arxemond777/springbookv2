@@ -4,7 +4,8 @@ import java.sql.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
 
-public class PlainJdbcSample {
+public class PlainJdbcSample
+{
     private static ContactDao contactDao = new PlainContactDao();
 
     public static void main(String[] args) {

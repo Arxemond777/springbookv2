@@ -1,6 +1,7 @@
 package ch3.page_94_collections;
 
-public class FtpArtworkSender implements ArtworkSender {
+public class FtpArtworkSender implements ArtworkSender
+{
     @Override
     public void sendArtwork(String artworkPath, Recipient recipient) {
         // ftp logic here... 
@@ -8,11 +9,11 @@ public class FtpArtworkSender implements ArtworkSender {
 
     @Override
     public String getFriendlyName() {
-        return "File Transfer Protocol"; 
+        return "File Transfer Protocol";
     }
 
     @Override
     public String getShortName() {
-        return "ftp"; 
+        return "ftp";
     }
 }

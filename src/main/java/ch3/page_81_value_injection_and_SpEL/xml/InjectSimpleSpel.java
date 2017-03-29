@@ -2,7 +2,8 @@ package ch3.page_81_value_injection_and_SpEL.xml;
 
 import org.springframework.context.support.GenericXmlApplicationContext;
 
-public class InjectSimpleSpel {
+public class InjectSimpleSpel
+{
     private String name;
     private int age;
     private float height;
@@ -50,11 +51,11 @@ public class InjectSimpleSpel {
     }
 
     public String toString() {
-        return "Name: " + name + "\n" 
-            + "Age: " + age + "\n"
-            + "Age in Seconds: " + ageInSeconds + "\n" 
-            + "Height: " + height + "\n" 
-            + "Is Programmer?: " + programmer;
+        return "Name: " + name + "\n"
+                + "Age: " + age + "\n"
+                + "Age in Seconds: " + ageInSeconds + "\n"
+                + "Height: " + height + "\n"
+                + "Is Programmer?: " + programmer;
     }
 
     public static void main(String[] args) {
@@ -62,7 +63,7 @@ public class InjectSimpleSpel {
         ctx.load("classpath:META-INF/spring/ch3/page_81/app-context-xml.xml");
         ctx.refresh();
 
-        InjectSimpleSpel simple = (InjectSimpleSpel)ctx.getBean("injectSimpleSpel");
+        InjectSimpleSpel simple = (InjectSimpleSpel) ctx.getBean("injectSimpleSpel");
         System.out.println(simple);
     }
 }

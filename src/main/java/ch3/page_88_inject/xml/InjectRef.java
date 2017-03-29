@@ -3,7 +3,8 @@ package ch3.page_88_inject.xml;
 import ch3.page_88_inject.Oracle;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
-public class InjectRef {
+public class InjectRef
+{
     private Oracle oracle;
 
     public void setOracle(Oracle oracle) {

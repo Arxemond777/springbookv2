@@ -1,6 +1,7 @@
 package ch5_AOP.page_266_proxyfactorybean;
 
-public class MyBean {
+public class MyBean
+{
     private MyDependency dep;
 
     public void execute() {

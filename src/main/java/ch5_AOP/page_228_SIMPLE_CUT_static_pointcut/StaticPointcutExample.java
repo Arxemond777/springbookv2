@@ -6,7 +6,8 @@ import org.springframework.aop.Pointcut;
 import org.springframework.aop.framework.ProxyFactory;
 import org.springframework.aop.support.DefaultPointcutAdvisor;
 
-public class StaticPointcutExample {
+public class StaticPointcutExample
+{
     public static void main(String[] args) {
         BeanOne one = new BeanOne();
         BeanTwo two = new BeanTwo();
@@ -21,12 +22,12 @@ public class StaticPointcutExample {
         ProxyFactory pf = new ProxyFactory();
         pf.addAdvisor(advisor);
         pf.setTarget(one);
-        proxyOne = (BeanOne)pf.getProxy();
+        proxyOne = (BeanOne) pf.getProxy();
 
         pf = new ProxyFactory();
         pf.addAdvisor(advisor);
         pf.setTarget(two);
-        proxyTwo = (BeanTwo)pf.getProxy();
+        proxyTwo = (BeanTwo) pf.getProxy();
 
         proxyOne.foo();
         proxyTwo.foo();

@@ -4,7 +4,8 @@ import org.springframework.beans.factory.BeanCreationException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
-public class SimpleBean {
+public class SimpleBean
+{
     private static final String DEFAULT_NAME = "Luke Skywalker";
 
     private String name;

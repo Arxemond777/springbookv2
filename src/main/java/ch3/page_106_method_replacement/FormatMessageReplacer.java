@@ -4,7 +4,8 @@ import org.springframework.beans.factory.support.MethodReplacer;
 
 import java.lang.reflect.Method;
 
-public class FormatMessageReplacer implements MethodReplacer {
+public class FormatMessageReplacer implements MethodReplacer
+{
     @Override
     public Object reimplement(Object arg0, Method method, Object[] args)
             throws Throwable {
@@ -36,5 +37,5 @@ public class FormatMessageReplacer implements MethodReplacer {
         }
 
         return true;
-    } 
+    }
 }

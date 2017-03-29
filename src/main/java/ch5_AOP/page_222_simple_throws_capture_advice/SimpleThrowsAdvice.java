@@ -5,7 +5,8 @@ import org.springframework.aop.framework.ProxyFactory;
 
 import java.lang.reflect.Method;
 
-public class SimpleThrowsAdvice implements ThrowsAdvice {
+public class SimpleThrowsAdvice implements ThrowsAdvice
+{
     public static void main(String[] args) throws Exception {
         ErrorBean errorBean = new ErrorBean();
 
@@ -36,7 +37,7 @@ public class SimpleThrowsAdvice implements ThrowsAdvice {
     }
 
     public void afterThrowing(Method method, Object[] args, Object target,
-            IllegalArgumentException ex) throws Throwable {
+                              IllegalArgumentException ex) throws Throwable {
         System.out.println("***");
         System.out.println("IllegalArgumentException Capture");
         System.out.println("Caught: " + ex.getClass().getName());

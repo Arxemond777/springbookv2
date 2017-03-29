@@ -8,7 +8,8 @@ import org.springframework.core.env.MutablePropertySources;
 import java.util.HashMap;
 import java.util.Map;
 
-public class EnvironmentSample {
+public class EnvironmentSample
+{
     public static void main(String[] args) {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
         ctx.refresh();

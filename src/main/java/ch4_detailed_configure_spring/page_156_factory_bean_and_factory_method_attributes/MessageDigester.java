@@ -2,9 +2,11 @@ package ch4_detailed_configure_spring.page_156_factory_bean_and_factory_method_a
 
 import java.security.MessageDigest;
 
-public class MessageDigester {
+public class MessageDigester
+{
     private MessageDigest digest1;
     private MessageDigest digest2;
+    private MessageDigest digest3;
 
     public void setDigest1(MessageDigest digest1) {
         this.digest1 = digest1;
@@ -25,8 +27,10 @@ public class MessageDigester {
     private void digest(String msg, MessageDigest digest) {
         System.out.println("Using alogrithm: " + digest.getAlgorithm());
         digest.reset();
+
         byte[] bytes = msg.getBytes();
         byte[] out = digest.digest(bytes);
+
         System.out.println(out);
     }
 }

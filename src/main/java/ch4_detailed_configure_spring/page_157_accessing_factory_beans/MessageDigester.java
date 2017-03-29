@@ -2,7 +2,8 @@ package ch4_detailed_configure_spring.page_157_accessing_factory_beans;
 
 import java.security.MessageDigest;
 
-public class MessageDigester {
+public class MessageDigester
+{
     private MessageDigest digest1;
     private MessageDigest digest2;
 

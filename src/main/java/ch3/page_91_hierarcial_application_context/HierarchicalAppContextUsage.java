@@ -2,7 +2,8 @@ package ch3.page_91_hierarcial_application_context;
 
 import org.springframework.context.support.GenericXmlApplicationContext;
 
-public class HierarchicalAppContextUsage {
+public class HierarchicalAppContextUsage
+{
     public static void main(String[] args) {
         GenericXmlApplicationContext parent = new GenericXmlApplicationContext();
         parent.load("classpath:META-INF/spring/ch3/page_91_hierarcial_application_context/parent.xml");

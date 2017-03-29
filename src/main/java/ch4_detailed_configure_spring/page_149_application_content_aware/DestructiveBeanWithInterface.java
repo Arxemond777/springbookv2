@@ -6,18 +6,19 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import java.io.File;
 
-public class DestructiveBeanWithInterface {
+public class DestructiveBeanWithInterface
+{
     private File file;
     private String filePath;
-    
+
     @PostConstruct
     public void afterPropertiesSet() throws Exception {
         System.out.println("Initializing Bean");
 
         if (filePath == null) {
             throw new IllegalArgumentException(
-                    "You must specify the filePath property of " + 
-                    DestructiveBeanWithInterface.class);
+                    "You must specify the filePath property of " +
+                            DestructiveBeanWithInterface.class);
         }
 
         this.file = new File(filePath);
@@ -30,7 +31,7 @@ public class DestructiveBeanWithInterface {
     public void destroy() {
         System.out.println("Destroying Bean");
 
-        if(!file.delete()) {
+        if (!file.delete()) {
             System.err.println("ERROR: failed to delete file.");
         }
 
@@ -45,9 +46,9 @@ public class DestructiveBeanWithInterface {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
         ctx.load("classpath:META-INF/spring/ch4_detailed_configure_spring/page_149_application_content_aware/app-context-annotation.xml");
         ctx.registerShutdownHook();
-        ctx.refresh(); 
+        ctx.refresh();
 
         DestructiveBeanWithInterface bean =
-            (DestructiveBeanWithInterface) ctx.getBean("destructiveBean");
+                (DestructiveBeanWithInterface) ctx.getBean("destructiveBean");
     }
 }

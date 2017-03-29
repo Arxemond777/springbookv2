@@ -5,7 +5,8 @@ import org.springframework.context.support.GenericXmlApplicationContext;
 import org.springframework.stereotype.Service;
 
 @Service("injectSimple")
-public class InjectSimple {
+public class InjectSimple
+{
     @Value("Chris Schaefer")
     private String name;
 
@@ -32,9 +33,9 @@ public class InjectSimple {
 
     public String toString() {
         return "Name: " + name + "\n"
-            + "Age: " + age + "\n"
-            + "Age in Seconds: " + ageInSeconds + "\n"
-            + "Height: " + height + "\n"
-            + "Is Programmer?: " + programmer;
+                + "Age: " + age + "\n"
+                + "Age in Seconds: " + ageInSeconds + "\n"
+                + "Height: " + height + "\n"
+                + "Is Programmer?: " + programmer;
     }
 }

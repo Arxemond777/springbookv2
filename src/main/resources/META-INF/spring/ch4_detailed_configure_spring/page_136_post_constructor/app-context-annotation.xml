@@ -13,14 +13,14 @@
     <context:annotation-config/>
 
     <bean id="simpleBean1"
-        class="ch4_detailed_configure_spring.page_136_post_constructor.SimpleBeanWithJSR250"
-        p:name="Chris Schaefer" p:age="32"/>
+          class="ch4_detailed_configure_spring.page_136_post_constructor.SimpleBeanWithJSR250"
+          p:name="Chris Schaefer" p:age="32"/>
 
     <bean id="simpleBean2"
-        class="ch4_detailed_configure_spring.page_136_post_constructor.SimpleBeanWithJSR250"
-        p:age="32"/>
+          class="ch4_detailed_configure_spring.page_136_post_constructor.SimpleBeanWithJSR250"
+          p:age="32"/>
 
-    <bean id="simpleBean3" 
-        class="ch4_detailed_configure_spring.page_136_post_constructor.SimpleBeanWithJSR250"
-        p:name="Chris Schaefer"/>
+    <bean id="simpleBean3"
+          class="ch4_detailed_configure_spring.page_136_post_constructor.SimpleBeanWithJSR250"
+          p:name="Chris Schaefer"/>
 </beans>

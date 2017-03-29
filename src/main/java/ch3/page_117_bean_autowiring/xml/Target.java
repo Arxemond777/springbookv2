@@ -4,27 +4,28 @@ import ch3.page_117_bean_autowiring.Bar;
 import ch3.page_117_bean_autowiring.Foo;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
-public class Target {
+public class Target
+{
     private Foo foo;
     private Foo foo2;
     private Bar bar;
 
     public Target() {
     }
-    
+
     public Target(Foo foo) {
         System.out.println("Target(Foo) called");
     }
-    
+
     public Target(Foo foo, Bar bar) {
         System.out.println("Target(Foo, Bar) called");
     }
-    
+
     public void setFoo(Foo foo) {
         this.foo = foo;
         System.out.println("Property foo set");
     }
-    
+
     public void setFoo2(Foo foo) {
         this.foo2 = foo;
         System.out.println("Property foo2 set");
@@ -41,15 +42,15 @@ public class Target {
         ctx.refresh();
 
         Target t = null;
-        
+
         System.out.println("Using byName:\n");
         t = (Target) ctx.getBean("targetByName");
-        
+
         System.out.println("\nUsing byType:\n");
         t = (Target) ctx.getBean("targetByType");
-        
+
         System.out.println("\nUsing constructor:\n");
         t = (Target) ctx.getBean("targetConstructor");
-        
+
     }
 }

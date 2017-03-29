@@ -3,15 +3,16 @@ package ch3.ch3_simple.xml;
 import ch3.ch3_simple.MessageProvider;
 import ch3.ch3_simple.MessageRenderer;
 
-public class StandardOutMessageRenderer implements MessageRenderer {
+public class StandardOutMessageRenderer implements MessageRenderer
+{
     private MessageProvider messageProvider;
 
     @Override
     public void render() {
         if (messageProvider == null) {
             throw new RuntimeException(
-            "You must set the property messageProvider of class:"
-            + StandardOutMessageRenderer.class.getName());
+                    "You must set the property messageProvider of class:"
+                            + StandardOutMessageRenderer.class.getName());
         }
 
         System.out.println(messageProvider.getMessage());
