@@ -23,7 +23,7 @@ public class SpringJPASample
 
         /** 403 displayAllContactSummary написание собственного запроса, типа query builder */
         ContactSummaryUntypeImpl contactSummaryUntype = ctx.getBean("contactSummaryUntype", ContactSummaryUntypeImpl.class);
-        System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&" + System.lineSeparator());
+        System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&");
         contactSummaryUntype.displayAllContactSummary();
         System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&" + System.lineSeparator());
 

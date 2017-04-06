@@ -13,3 +13,6 @@ For more help see the Apache Camel documentation
 
     http://camel.apache.org/
 
+
+Чтоб включить log4j -> засунуть в target/classes/
+Отключил, ибо мешает
