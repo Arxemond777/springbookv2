@@ -2,331 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="705f2052-93fa-4970-9100-61c0abbe80c2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_288_plain_JDBC/Contact.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_288_plain_JDBC/ContactDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_288_plain_JDBC/PlainContactDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_288_plain_JDBC/PlainJdbcSample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_300_spring_jdbc_embedded/ContactDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_300_spring_jdbc_embedded/JdbcContactDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_300_spring_jdbc_embedded/JdbcContactDaoSample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_300_spring_jdbc_embedded/MySQLErrorCodesTranslator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_308_spring_jdbc_namedparam/ContactDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_308_spring_jdbc_namedparam/JdbcContactDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_308_spring_jdbc_namedparam/JdbcContactDaoSample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_309_spring_jdbc_rowmapperPLUSlambda/Contact.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_309_spring_jdbc_rowmapperPLUSlambda/ContactDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_309_spring_jdbc_rowmapperPLUSlambda/ContactTelDetail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_309_spring_jdbc_rowmapperPLUSlambda/JdbcContactDao$ContactMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_309_spring_jdbc_rowmapperPLUSlambda/JdbcContactDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_309_spring_jdbc_rowmapperPLUSlambda/JdbcContactDaoSample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_312_spring_jdbc_resultsetextractor_lambdaPLUSlambda/Contact.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_312_spring_jdbc_resultsetextractor_lambdaPLUSlambda/ContactDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_312_spring_jdbc_resultsetextractor_lambdaPLUSlambda/ContactTelDetail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_312_spring_jdbc_resultsetextractor_lambdaPLUSlambda/JdbcContactDao$ContactWithDetailExtractor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_312_spring_jdbc_resultsetextractor_lambdaPLUSlambda/JdbcContactDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_312_spring_jdbc_resultsetextractor_lambdaPLUSlambda/JdbcContactDaoSample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/AnnotationJdbcDaoSample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/Contact.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/ContactDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/ContactTelDetail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/InsertContact.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/InsertContactTelDetail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/JdbcContactDao$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/JdbcContactDao$ContactWithDetailExtractor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/JdbcContactDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/SelectAllContacts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/SelectContactByFirstName.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/StoredFunctionFirstNameById.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/UpdateContact.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/config/1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/config/CH6_JDBC/1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/config/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/CH6_JDBC/page_300_spring_jdbc_embedded/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/CH6_JDBC/page_308_spring_jdbc_namedparam/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/CH6_JDBC/page_309_spring_jdbc_rowmapperPLUSlambda/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/CH6_JDBC/page_312_spring_jdbc_resultsetextractor_lambdaPLUSlambda/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/datasource-dbcp.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/app-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3-simple-app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3-simple-app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3/page_101_method_injection/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3/page_106_method_replacement/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3/page_110_bean_alias/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3/page_112_bean_instantion_mode/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3/page_117_bean_autowiring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3/page_121_bean_inheritance/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3/page_73/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3/page_73/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3/page_75/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3/page_75/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3/page_81/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3/page_81/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3/page_88_inject/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3/page_91_hierarcial_application_context/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3/page_91_hierarcial_application_context/parent.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3/page_94_collections/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch3/page_94_collections/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_130_bean_init/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_133_initializing_bean/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_136_post_constructor/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_138_disposable_bean/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_143_post_construct_pre_destroy/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_145_shutdown_hook/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_146_bean_name_aware/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_149_application_content_aware/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_151_factory_bean_and_factory_method_attributes/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_156_factory_bean_and_factory_method_attributes/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_157_accessing_factory_beans/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_158_property_editor/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_158_property_editor/text.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_163_custom_property_editor/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_167_message_source/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_172_events/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_180_java_config/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_181_java_config_message_provider/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_185_profiles/highschool-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_185_profiles/kindergarten-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_188_property_placeholder/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch4_detailed_configure_spring/page_191_jsr330/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch5_AOP/page_266_proxyfactorybean/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch5_AOP/page_269_proxyfactorybean_introduction/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch5_AOP/page_272_aop_namespace/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch5_AOP/page_278_aspectJ_annotation/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch5_AOP/page_280_aspectJ_aspects/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/ch7_Hibernate/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/xml-bean-factory-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/sql/CH6_JDBC/1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/sql/CH6_JDBC/page_300_spring_jdbc_embedded/schema.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/sql/CH6_JDBC/page_300_spring_jdbc_embedded/test-data.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/sql/ch7_Hibernate/schema.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/sql/ch7_Hibernate/test-data.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/beans.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/ch3_simple/DeclareSpringComponents.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/ch3_simple/MessageProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/ch3_simple/MessageRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/ch3_simple/annotation/HelloWorldMessageProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/ch3_simple/annotation/StandardOutMessageRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/ch3_simple/xml/HelloWorldMessageProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/ch3_simple/xml/StandardOutMessageRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/ch3_start/BookwormOracle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/ch3_start/Oracle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/ch3_start/XmlConfigWithBeanFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_101_method_injection/AbstractLookupDemoBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_101_method_injection/DemoBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_101_method_injection/LookupDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_101_method_injection/MyHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_101_method_injection/StandardLookupDemoBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_106_method_replacement/FormatMessageReplacer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_106_method_replacement/MethodReplacementExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_106_method_replacement/ReplacementTarget.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_110_bean_alias/xml/BeanNameAliasing.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_112_bean_instantion_mode/NonSingleton.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_112_bean_instantion_mode/Singleton.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_117_bean_autowiring/Bar.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_117_bean_autowiring/Foo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_117_bean_autowiring/xml/Target.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_121_bean_inheritance/xml/SimpleBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_73_inject_via_method_install/DeclareSpringComponents.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_73_inject_via_method_install/MessageProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_73_inject_via_method_install/MessageRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_73_inject_via_method_install/annotation/HelloWorldMessageProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_73_inject_via_method_install/annotation/StandardOutMessageRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_73_inject_via_method_install/xml/HelloWorldMessageProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_73_inject_via_method_install/xml/StandardOutMessageRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_75_ingect_via_construct/ConstructorConfusion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_75_ingect_via_construct/ConstructorInjection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_75_ingect_via_construct/DeclareSpringComponents.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_75_ingect_via_construct/Dependency.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_75_ingect_via_construct/MessageProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_75_ingect_via_construct/annotation/ConfigurableMessageProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_75_ingect_via_construct/annotation/ConstructorConfusion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_75_ingect_via_construct/xml/ConfigurableMessageProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_75_ingect_via_construct/xml/ConstructorConfusion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_81_value_injection_and_SpEL/annotation/InjectSimple.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_81_value_injection_and_SpEL/annotation/InjectSimpleConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_81_value_injection_and_SpEL/annotation/InjectSimpleSpel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_81_value_injection_and_SpEL/xml/InjectSimple.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_81_value_injection_and_SpEL/xml/InjectSimpleConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_81_value_injection_and_SpEL/xml/InjectSimpleSpel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_88_inject/BookwormOracle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_88_inject/Encyclopedia.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_88_inject/Oracle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_88_inject/xml/InjectRef.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_91_hierarcial_application_context/HierarchicalAppContextUsage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_91_hierarcial_application_context/SimpleTarget.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_94_collections/ArtworkSender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_94_collections/FtpArtworkSender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_94_collections/Oracle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_94_collections/Recipient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_94_collections/annotation/BookwormOracle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_94_collections/annotation/CollectionInjection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_94_collections/xml/BookwormOracle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/page_94_collections/xml/CollectionInjection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_130_bean_init/SimpleBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_133_initializing_bean/SimpleBeanWithInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_136_post_constructor/SimpleBeanWithJSR250.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_138_disposable_bean/DestructiveBeanWithInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_143_post_construct_pre_destroy/DestructiveBeanWithJSR250.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_145_shutdown_hook/DestructiveBeanWithInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_146_bean_name_aware/BeanNamePrinter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_146_bean_name_aware/BeanNamePrinterExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_149_application_content_aware/DestructiveBeanWithInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_149_application_content_aware/ShutdownHookBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_151_factory_bean_and_factory_method_attributes/MessageDigestFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_151_factory_bean_and_factory_method_attributes/MessageDigestFactoryExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_151_factory_bean_and_factory_method_attributes/MessageDigester.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_156_factory_bean_and_factory_method_attributes/MessageDigestFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_156_factory_bean_and_factory_method_attributes/MessageDigestFactoryExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_156_factory_bean_and_factory_method_attributes/MessageDigester.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_157_accessing_factory_beans/AccessingFactoryBeans.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_157_accessing_factory_beans/MessageDigestFactoryBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_157_accessing_factory_beans/MessageDigester.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_158_property_editor/PropertyEditorBean$CustomPropertyEditorRegistrar.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_158_property_editor/PropertyEditorBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_163_custom_property_editor/CustomEditorExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_163_custom_property_editor/Name.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_163_custom_property_editor/NamePropertyEditor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_163_custom_property_editor/PropertyEditorBean$CustomPropertyEditorRegistrar.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_163_custom_property_editor/PropertyEditorBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_167_message_source/MessageSourceDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_172_events/MessageEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_172_events/MessageEventListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_172_events/Publisher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_175_resource/ResourceDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_180_java_config/AppConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_180_java_config/ConfigurableMessageProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_180_java_config/JavaConfigSimpleExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_180_java_config/JavaConfigXMLExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_180_java_config/MessageProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_180_java_config/MessageRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_180_java_config/StandardOutMessageRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_181_java_config_message_provider/AppConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_181_java_config_message_provider/ConfigurableMessageProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_181_java_config_message_provider/JavaConfigSimpleExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_181_java_config_message_provider/MessageProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_181_java_config_message_provider/MessageRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_181_java_config_message_provider/StandardOutMessageRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_185_profiles/Food.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_185_profiles/FoodProviderService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_185_profiles/ProfileXmlConfigExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_185_profiles/highschool/FoodProviderServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_185_profiles/kindergarten/FoodProviderServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_187_enviroment/EnvironmentSample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_188_property_placeholder/AppProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_188_property_placeholder/PlaceHolderSample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_191_jsr330/ConfigurableMessageProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_191_jsr330/Jsr330Example.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_191_jsr330/MessageProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_191_jsr330/MessageRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_191_jsr330/StandardOutMessageRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_193_groovy_config/Contact.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_193_groovy_config/GroovyBeansFromJava.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch4_detailed_configure_spring/page_195_groovy_config_java/Contact.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_203_hello_world_aop/HelloWorldAOPExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_203_hello_world_aop/MessageDecorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_203_hello_world_aop/MessageWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_210_simple_before_advice/MessageWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_210_simple_before_advice/SimpleBeforeAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_212_security/SecureBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_212_security/SecurityAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_212_security/SecurityExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_212_security/SecurityManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_212_security/UserInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_216_simple_after_returning_advice/MessageWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_216_simple_after_returning_advice/SimpleAfterReturningAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_217_simple_after_returning_advice_keygen/AfterAdviceExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_217_simple_after_returning_advice_keygen/KeyGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_217_simple_after_returning_advice_keygen/WeakKeyCheckAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_220_simple_around_advice/ProfilingExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_220_simple_around_advice/ProfilingInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_220_simple_around_advice/WorkerBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_222_simple_throws_capture_advice/ErrorBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_222_simple_throws_capture_advice/SimpleThrowsAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_228_SIMPLE_CUT_static_pointcut/BeanOne.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_228_SIMPLE_CUT_static_pointcut/BeanTwo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_228_SIMPLE_CUT_static_pointcut/SimpleAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_228_SIMPLE_CUT_static_pointcut/SimpleStaticPointcut$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_228_SIMPLE_CUT_static_pointcut/SimpleStaticPointcut.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_228_SIMPLE_CUT_static_pointcut/StaticPointcutExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_231_dynamic_pointciut/DynamicPointcutExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_231_dynamic_pointciut/SampleBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_231_dynamic_pointciut/SimpleAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_231_dynamic_pointciut/SimpleDynamicPointcut$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_231_dynamic_pointciut/SimpleDynamicPointcut.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_235_simple_name_matching/NameBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_235_simple_name_matching/NamePointcutExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_235_simple_name_matching/SimpleAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_236_regex_pointcut/RegexpBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_236_regex_pointcut/RegexpPointcutExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_236_regex_pointcut/SimpleAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_237_aspectJ_regex_pointcut/AspectjexpBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_237_aspectJ_regex_pointcut/AspectjexpPointcutExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_237_aspectJ_regex_pointcut/SimpleAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_239_annotation_pointcut/AdviceRequired.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_239_annotation_pointcut/AnnotationPointcutExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_239_annotation_pointcut/SampleAnnotationBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_239_annotation_pointcut/SimpleAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_244_jglib_VS_jdk_test_perfomance/DefaultSimpleBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_244_jglib_VS_jdk_test_perfomance/NoOpBeforeAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_244_jglib_VS_jdk_test_perfomance/ProxyPerfTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_244_jglib_VS_jdk_test_perfomance/SimpleBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_244_jglib_VS_jdk_test_perfomance/TestPointcut.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_248_control_flow_pointcut/ControlFlowExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_248_control_flow_pointcut/SimpleBeforeAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_248_control_flow_pointcut/TestBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_250_composible_pointcut/ComposablePointcutExample$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_250_composible_pointcut/ComposablePointcutExample$GetAgeMethodMatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_250_composible_pointcut/ComposablePointcutExample$GetterMethodMatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_250_composible_pointcut/ComposablePointcutExample$SetterMethodMatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_250_composible_pointcut/ComposablePointcutExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_250_composible_pointcut/SampleBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_250_composible_pointcut/SimpleBeforeAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_260_modification_introduction/IntroductionExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_260_modification_introduction/IsModified.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_260_modification_introduction/IsModifiedAdvisor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_260_modification_introduction/IsModifiedMixin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_260_modification_introduction/TargetBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_266_proxyfactorybean/MyAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_266_proxyfactorybean/MyBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_266_proxyfactorybean/MyDependency.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_266_proxyfactorybean/ProxyFactoryBeanExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_269_proxyfactorybean_introduction/IntroductionConfigExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_269_proxyfactorybean_introduction/IsModified.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_269_proxyfactorybean_introduction/IsModifiedAdvisor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_269_proxyfactorybean_introduction/IsModifiedMixin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_269_proxyfactorybean_introduction/TargetBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_272_aop_namespace/AopNamespaceExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_272_aop_namespace/MyAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_272_aop_namespace/MyBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_272_aop_namespace/MyDependency.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_278_aspectJ_annotation/AspectJAnnotationExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_278_aspectJ_annotation/MyAdvice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_278_aspectJ_annotation/MyBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_278_aspectJ_annotation/MyDependency.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_280_aspectJ_aspects/AspectJExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch5_AOP/page_280_aspectJ_aspects/MessageWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch7_Hibernate/Contact.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch7_Hibernate/ContactDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch7_Hibernate/ContactDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch7_Hibernate/ContactTelDetail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch7_Hibernate/Hobby.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch7_Hibernate/SpringHibernateSample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/log4j2.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/message.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring_first_java/HelloWorld.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring_first_java/HelloWorldMessageProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring_first_java/MessageProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring_first_java/MessageRender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring_first_java/MessageSupportFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring_first_java/StandartOutMessageRender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring_first_java/msf.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/test.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadMe.txt" afterPath="$PROJECT_DIR$/ReadMe.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/ContactSummaryServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/ContactSummaryServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/SpringJPASample.java" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/SpringJPASample.java" />
     </list>
     <ignored path="springBook2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -348,32 +26,12 @@
     <favorites_list name="springBook2" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Contact.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/Contact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="SpringJPASample.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/SpringJPASample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app-context-annotation.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_398_jpa_crud/app-context-annotation.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="27" column="64" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="64" />
+            <state relative-caret-position="455">
+              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -399,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ch5_AOP/page_260_modification_introduction/IntroductionExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch5_AOP/page_278_aspectJ_annotation/MyDependency.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch5_AOP/page_280_aspectJ_aspects/app-context-xml.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ch5_AOP/page_280_aspectJ_aspects/AspectJExample.java" />
@@ -449,6 +106,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/ContactSummaryUntypeImpl.java" />
         <option value="$PROJECT_DIR$/target/classes/log4j.properties" />
         <option value="$PROJECT_DIR$/ReadMe.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/ContactSummaryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/SpringJPASample.java" />
       </list>
     </option>
@@ -500,6 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -944,9 +603,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1643,12 +1301,13 @@
       <workItem from="1491053011042" duration="3598000" />
       <workItem from="1491140544543" duration="50000" />
       <workItem from="1491501501762" duration="227000" />
-      <workItem from="1491502092287" duration="4621000" />
+      <workItem from="1491502092287" duration="4788000" />
+      <workItem from="1491591394748" duration="2066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27016000" />
+    <option name="totallyTimeSpent" value="29249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1661,15 +1320,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3190272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1680,6 +1338,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1704,13 +1363,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/CH6_JDBC/page_312_spring_jdbc_resultsetextractor_lambdaPLUSlambda/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CH6_JDBC/page_312_spring_jdbc_resultsetextractor_lambdaPLUSlambda/ContactTelDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1829,13 +1481,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/Chapter6/spring-jdbc-annotations-lambda/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/target/classes/META-INF/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/META-INF/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/examples/Chapter6/plain-jdbc/src/main/resources/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -1893,10 +1539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#1648#1649#0" expanded="false" />
-            <element signature="e#1683#1684#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1904,9 +1546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="92" column="88" selection-start-line="92" selection-start-column="88" selection-end-line="92" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1914,7 +1553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1922,7 +1560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1930,7 +1567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1962,7 +1598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1970,7 +1605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1982,19 +1616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/1">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2002,11 +1627,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/ch8_JPA/page_398_jpa_crud/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2022,42 +1661,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/ContactSummaryServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/ContactSummaryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        <state relative-caret-position="68">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/ContactSummaryUntypeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="153">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/ContactSummaryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReadMe.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/SpringJPASample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+        <state relative-caret-position="455">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding />
         </state>
       </provider>

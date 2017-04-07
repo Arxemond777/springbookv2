@@ -1,5 +1,6 @@
 package ch8_JPA.page_398_jpa_crud;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Date;
 import java.util.Set;
@@ -27,6 +28,18 @@ public class SpringJPASample
         contactSummaryUntype.displayAllContactSummary();
         System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&" + System.lineSeparator());
 
+        /** 403 Interesting DTO */
+        ContactSummaryService contactSummaryService = ctx.getBean("contactSummaryService", ContactSummaryService.class);
+
+        List<ContactSummary> contacts = contactSummaryService.findAll();
+
+        for (ContactSummary contact : contacts)
+            System.out.println(contact);
+
+        System.out.println(ContactSummaryService.class);
+        System.out.println(ContactSummaryServiceImpl.class.getName());
+
+        /** 414 Query Builder IN ContactServiceImpl */
 //        List<Contact> contacts = contactService.findAllByNativeQuery();
     }
 }

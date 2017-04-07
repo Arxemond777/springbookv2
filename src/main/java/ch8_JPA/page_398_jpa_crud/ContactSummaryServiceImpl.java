@@ -21,7 +21,7 @@ public class ContactSummaryServiceImpl implements ContactSummaryService
     @Override
     public List<ContactSummary> findAll() {
         List<ContactSummary> result = em.createQuery(
-                "select new com.apress.prospring4.ch8.ContactSummary("
+                "select new ch8_JPA.page_398_jpa_crud.ContactSummary("
                         + "c.firstName, c.lastName, t.telNumber) "
                         + "from Contact c left join c.contactTelDetails t "
                         + "where t.telType='Home'",
