@@ -15,8 +15,8 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <jdbc:embedded-database id="dataSource" type="H2">
-        <jdbc:script location="classpath:META-INF/sql/ch8_JPA/page_398_jpa_crud/schema.sql"/>
-        <jdbc:script location="classpath:META-INF/sql/ch8_JPA/page_398_jpa_crud/test-data.sql"/>
+        <jdbc:script location="classpath:META-INF/sql/ch8_JPA/page_420_jpa_criteria/schema.sql"/>
+        <jdbc:script location="classpath:META-INF/sql/ch8_JPA/page_420_jpa_criteria/test-data.sql"/>
     </jdbc:embedded-database>
 
     <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
@@ -30,7 +30,7 @@
         <property name="jpaVendorAdapter">
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>
         </property>
-        <property name="packagesToScan" value="ch8_JPA.page_398_jpa_crud"/>
+        <property name="packagesToScan" value="ch8_JPA.page_420_jpa_criteria"/>
         <property name="jpaProperties">
             <props>
                 <prop key="hibernate.dialect">org.hibernate.dialect.H2Dialect</prop>
@@ -42,5 +42,5 @@
         </property>
     </bean>
 
-    <context:component-scan base-package="ch8_JPA.page_398_jpa_crud"/>
+    <context:component-scan base-package="ch8_JPA.page_420_jpa_criteria"/>
 </beans>

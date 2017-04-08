@@ -2,9 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="705f2052-93fa-4970-9100-61c0abbe80c2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_14_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_jpamodelgen_1_3_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_5_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_3_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_431_spring_data_jpa_audit/AuditorAwareBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_431_spring_data_jpa_audit/ContactAudit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_431_spring_data_jpa_audit/ContactAuditRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_431_spring_data_jpa_audit/ContactAuditService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_431_spring_data_jpa_audit/ContactAuditServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_431_spring_data_jpa_audit/SpringJPASample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/orm.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-criteria/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-criteria/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-criteria/src/main/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-crud/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-crud/src/main/java/com/apress/prospring4/ch8/ContactService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-crud/src/main/java/com/apress/prospring4/ch8/ContactServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-crud/src/main/java/com/apress/prospring4/ch8/ContactSummary.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-crud/src/main/java/com/apress/prospring4/ch8/ContactSummaryService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-crud/src/main/java/com/apress/prospring4/ch8/ContactSummaryServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-crud/src/main/java/com/apress/prospring4/ch8/ContactSummaryUntypeImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-crud/src/main/java/com/apress/prospring4/ch8/SpringJPASample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-crud/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-crud/src/main/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/spring-data-jpa/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/spring-data-jpa/src/main/java/com/apress/prospring4/ch8/Contact.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/spring-data-jpa/src/main/java/com/apress/prospring4/ch8/ContactTelDetail.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/spring-data-jpa/src/main/java/com/apress/prospring4/ch8/Hobby.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/spring-data-jpa/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter8/spring-data-jpa/src/main/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ch8_JPA/1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch8_JPA/1" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_9_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-criteria/src/main/java/com/apress/prospring4/ch8/Contact.java" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_420_jpa_criteria/Contact.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-criteria/src/main/java/com/apress/prospring4/ch8/ContactService.java" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_420_jpa_criteria/ContactService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-criteria/src/main/java/com/apress/prospring4/ch8/ContactServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_420_jpa_criteria/ContactServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-criteria/src/main/java/com/apress/prospring4/ch8/ContactTelDetail.java" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_420_jpa_criteria/ContactTelDetail.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-criteria/src/main/java/com/apress/prospring4/ch8/Hobby.java" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_420_jpa_criteria/Hobby.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-criteria/src/main/java/com/apress/prospring4/ch8/SpringJPASample.java" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_420_jpa_criteria/SpringJPASample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-criteria/src/main/resources/META-INF/spring/app-context-annotation.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_420_jpa_criteria/app-context-annotation.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-criteria/src/main/resources/META-INF/sql/schema.sql" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch8_JPA/page_420_jpa_criteria/schema.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-criteria/src/main/resources/META-INF/sql/test-data.sql" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch8_JPA/page_420_jpa_criteria/test-data.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-crud/src/main/java/com/apress/prospring4/ch8/Contact.java" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_426_spring_data_jpa/Contact.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-crud/src/main/java/com/apress/prospring4/ch8/ContactTelDetail.java" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_426_spring_data_jpa/ContactTelDetail.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-crud/src/main/java/com/apress/prospring4/ch8/Hobby.java" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_426_spring_data_jpa/Hobby.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-crud/src/main/resources/META-INF/spring/app-context-annotation.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_431_spring_data_jpa_audit/app-context-annotation.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-crud/src/main/resources/META-INF/sql/schema.sql" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch8_JPA/page_426_spring_data_jpa/schema.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/jpa-crud/src/main/resources/META-INF/sql/test-data.sql" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch8_JPA/page_426_spring_data_jpa/test-data.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/spring-data-jpa/src/main/java/com/apress/prospring4/ch8/ContactRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_426_spring_data_jpa/ContactRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/spring-data-jpa/src/main/java/com/apress/prospring4/ch8/ContactService.java" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_426_spring_data_jpa/ContactService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/spring-data-jpa/src/main/java/com/apress/prospring4/ch8/ContactServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_426_spring_data_jpa/ContactServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/spring-data-jpa/src/main/java/com/apress/prospring4/ch8/SpringJPASample.java" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_426_spring_data_jpa/SpringJPASample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/spring-data-jpa/src/main/resources/META-INF/spring/app-context-annotation.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_426_spring_data_jpa/app-context-annotation.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/spring-data-jpa/src/main/resources/META-INF/sql/schema.sql" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch8_JPA/page_431_spring_data_jpa_audit/schema.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter8/spring-data-jpa/src/main/resources/META-INF/sql/test-data.sql" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch8_JPA/page_431_spring_data_jpa_audit/test-data.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/ContactSummaryServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/ContactSummaryServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/SpringJPASample.java" afterPath="$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/SpringJPASample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springBook2.iml" afterPath="$PROJECT_DIR$/springBook2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_398_jpa_crud/app-context-annotation.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_398_jpa_crud/app-context-annotation.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
     </list>
     <ignored path="springBook2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,12 +87,32 @@
     <favorites_list name="springBook2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SpringJPASample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/SpringJPASample.java">
+    <leaf>
+      <file leaf-file-name="AuditorAwareBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_431_spring_data_jpa_audit/AuditorAwareBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+            <state relative-caret-position="0">
+              <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/orm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringJPASample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_431_spring_data_jpa_audit/SpringJPASample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -57,18 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ch5_AOP/page_278_aspectJ_annotation/MyDependency.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch5_AOP/page_280_aspectJ_aspects/app-context-xml.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ch5_AOP/page_280_aspectJ_aspects/AspectJExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch5_AOP/page_280_aspectJ_aspects/MessageWriter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch5_AOP/page_280_aspectJ_aspects/MessageWrapper.aj" />
-        <option value="$PROJECT_DIR$/src/main/java/CH6_JDBC/page_288_plain_JDBC/Contact.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CH6_JDBC/page_288_plain_JDBC/PlainContactDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CH6_JDBC/page_288_plain_JDBC/PlainJdbcSample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CH6_JDBC/page_300_spring_jdbc_embedded/MySQLErrorCodesTranslator.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/CH6_JDBC/page_300_spring_jdbc_embedded/app-context-xml.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/CH6_JDBC/page_300_spring_jdbc_embedded/JdbcContactDaoSample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_156_factory_bean_and_factory_method_attributes/MessageDigestFactoryExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_156_factory_bean_and_factory_method_attributes/MessageDigestFactory.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch4_detailed_configure_spring/page_156_factory_bean_and_factory_method_attributes/app-context-xml.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_156_factory_bean_and_factory_method_attributes/MessageDigester.java" />
@@ -99,8 +168,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ch7_Hibernate/Contact.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch7_Hibernate/Hobby.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch7_Hibernate/SpringHibernateSample.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/Contact.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_398_jpa_crud/app-context-annotation.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/ContactSummaryUntypeImpl.java" />
@@ -108,6 +175,20 @@
         <option value="$PROJECT_DIR$/ReadMe.txt" />
         <option value="$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/ContactSummaryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/SpringJPASample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch8_JPA/page_420_jpa_criteria/Contact.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch8_JPA/page_420_jpa_criteria/schema.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_420_jpa_criteria/app-context-annotation.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ch8_JPA/page_420_jpa_criteria/SpringJPASample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch8_JPA/page_426_spring_data_jpa/Contact.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_426_spring_data_jpa/app-context-annotation.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ch8_JPA/page_426_spring_data_jpa/SpringJPASample.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_431_spring_data_jpa_audit/SpringJPASample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch8_JPA/page_431_spring_data_jpa_audit/AuditorAwareBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch8_JPA/page_431_spring_data_jpa_audit/SpringJPASample.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_431_spring_data_jpa_audit/app-context-annotation.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/orm.xml" />
       </list>
     </option>
   </component>
@@ -187,38 +268,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springBook2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springBook2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springBook2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springBook2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -242,6 +291,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,6 +367,10 @@
               <option name="myItemId" value="ch8_JPA" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page_431_spring_data_jpa_audit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -318,10 +397,6 @@
               <option name="myItemId" value="ch8_JPA" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page_398_jpa_crud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -372,26 +447,8 @@
               <option name="myItemId" value="Chapter8" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springBook2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springBook2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jpa-crud" />
+              <option name="myItemId" value="spring-data-jpa-audit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -413,7 +470,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jpa-crud" />
+              <option name="myItemId" value="spring-data-jpa-audit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -447,7 +504,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jpa-crud" />
+              <option name="myItemId" value="spring-data-jpa-audit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -485,91 +542,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jpa-crud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springBook2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springBook2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jpa-crud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springBook2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springBook2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jpa-crud" />
+              <option name="myItemId" value="spring-data-jpa-audit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -601,6 +574,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -617,81 +608,22 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HelloWorld" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch8_JPA/page_431_spring_data_jpa_audit" />
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_431_spring_data_jpa_audit" />
+      <recent name="$PROJECT_DIR$/src/main/java/ch8_JPA/page_431_spring_data_jpa_audit" />
+      <recent name="$PROJECT_DIR$/src/main/java/ch8_JPA" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF/spring/CH6_JDBC/page_308_spring_jdbc_namedparam" />
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF/spring/CH6_JDBC/page_300_spring_jdbc_embedded" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/target/classes" />
-      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch8_JPA/page_398_jpa_crud" />
-      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_398_jpa_crud" />
-      <recent name="$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud" />
-      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch7_Hibernate" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.SpringJPASample">
-    <configuration default="false" name="JdbcContactDaoSample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="CH6_JDBC.page_308_spring_jdbc_namedparam.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="CH6_JDBC.page_308_spring_jdbc_namedparam.JdbcContactDaoSample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springBook2" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="JdbcContactDaoSample (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="CH6_JDBC.page_312_spring_jdbc_resultsetextractor_lambdaPLUSlambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="CH6_JDBC.page_312_spring_jdbc_resultsetextractor_lambdaPLUSlambda.JdbcContactDaoSample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springBook2" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="AnnotationJdbcDaoSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="CH6_JDBC.page_318_spring_jdbc_annotationsPLUSlambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="CH6_JDBC.page_318_spring_jdbc_annotationsPLUSlambda.AnnotationJdbcDaoSample" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springBook2" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.SpringJPASample (3)">
     <configuration default="false" name="SpringHibernateSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -720,6 +652,66 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="ch8_JPA.page_398_jpa_crud.SpringJPASample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="springBook2" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SpringJPASample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch8_JPA.page_420_jpa_criteria.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ch8_JPA.page_420_jpa_criteria.SpringJPASample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="springBook2" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SpringJPASample (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch8_JPA.page_426_spring_data_jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ch8_JPA.page_426_spring_data_jpa.SpringJPASample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="springBook2" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SpringJPASample (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch8_JPA.page_431_spring_data_jpa_audit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ch8_JPA.page_431_spring_data_jpa_audit.SpringJPASample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1268,19 +1260,19 @@
       <item index="1" class="java.lang.String" itemvalue="Maven.compile exec:java" />
       <item index="2" class="java.lang.String" itemvalue="Maven.clean" />
       <item index="3" class="java.lang.String" itemvalue="Maven.clean package" />
-      <item index="4" class="java.lang.String" itemvalue="Application.JdbcContactDaoSample (1)" />
-      <item index="5" class="java.lang.String" itemvalue="Application.JdbcContactDaoSample (2)" />
-      <item index="6" class="java.lang.String" itemvalue="Application.AnnotationJdbcDaoSample" />
-      <item index="7" class="java.lang.String" itemvalue="Application.SpringHibernateSample" />
-      <item index="8" class="java.lang.String" itemvalue="Application.SpringJPASample" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SpringHibernateSample" />
+      <item index="5" class="java.lang.String" itemvalue="Application.SpringJPASample" />
+      <item index="6" class="java.lang.String" itemvalue="Application.SpringJPASample (1)" />
+      <item index="7" class="java.lang.String" itemvalue="Application.SpringJPASample (2)" />
+      <item index="8" class="java.lang.String" itemvalue="Application.SpringJPASample (3)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SpringJPASample" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SpringHibernateSample" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AnnotationJdbcDaoSample" />
-        <item index="3" class="java.lang.String" itemvalue="Application.JdbcContactDaoSample (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.JdbcContactDaoSample (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SpringJPASample (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SpringJPASample (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SpringJPASample (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SpringJPASample" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SpringHibernateSample" />
       </list>
     </recent_temporary>
   </component>
@@ -1302,12 +1294,14 @@
       <workItem from="1491140544543" duration="50000" />
       <workItem from="1491501501762" duration="227000" />
       <workItem from="1491502092287" duration="4788000" />
-      <workItem from="1491591394748" duration="2066000" />
+      <workItem from="1491591394748" duration="3234000" />
+      <workItem from="1491629815896" duration="526000" />
+      <workItem from="1491653751242" duration="5108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29249000" />
+    <option name="totallyTimeSpent" value="36051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1320,14 +1314,15 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3190272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1338,7 +1333,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1363,178 +1357,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/CH6_JDBC/page_312_spring_jdbc_resultsetextractor_lambdaPLUSlambda/ContactTelDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.0.2.RELEASE/spring-jdbc-4.0.2.RELEASE.jar!/org/springframework/jdbc/core/ResultSetExtractor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CH6_JDBC/page_312_spring_jdbc_resultsetextractor_lambdaPLUSlambda/JdbcContactDaoSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.0.2.RELEASE/spring-jdbc-4.0.2.RELEASE.jar!/org/springframework/jdbc/core/namedparam/NamedParameterJdbcTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CH6_JDBC/page_312_spring_jdbc_resultsetextractor_lambdaPLUSlambda/JdbcContactDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="39" column="53" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/config/CH6_JDBC/1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/config/1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/Chapter6/spring-jdbc-annotations/src/main/resources/META-INF/config/jdbc.properties" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.0.2.RELEASE/spring-jdbc-4.0.2.RELEASE.jar!/org/springframework/jdbc/object/SqlQuery.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.0.2.RELEASE/spring-jdbc-4.0.2.RELEASE.jar!/org/springframework/jdbc/object/MappingSqlQuery.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/datasource-dbcp.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="e#744#757#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/SelectAllContacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/ContactDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/config/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/StoredFunctionFirstNameById.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="62" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/SelectContactByFirstName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/CH6_JDBC/page_300_spring_jdbc_embedded/app-context-xml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="93" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/Chapter6/spring-jdbc-annotations-lambda/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/target/classes/META-INF/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/examples/Chapter6/plain-jdbc/src/main/resources/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/AnnotationJdbcDaoSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/CH6_JDBC/page_300_spring_jdbc_embedded/test-data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/Chapter6/spring-jdbc-annotations-lambda/src/main/resources/META-INF/sql/stored-function.sql" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/app-context-annotation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="4" selection-end-line="19" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CH6_JDBC/page_318_spring_jdbc_annotationsPLUSlambda/JdbcContactDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="79" column="68" selection-start-line="79" selection-start-column="68" selection-end-line="79" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/ch7_Hibernate/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/Chapter7/hibernate-crud/pom.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/OneToMany.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch7_Hibernate/ContactTelDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1563,18 +1385,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch7_Hibernate/app-context-annotation.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1582,7 +1396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1590,7 +1403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1605,14 +1417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1645,19 +1449,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_398_jpa_crud/app-context-annotation.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="27" column="64" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1665,7 +1460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="38" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1673,7 +1467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1681,14 +1474,271 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="14" column="38" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/SpringJPASample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_420_jpa_criteria/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter8/jpa-criteria/src/main/java/com/apress/prospring4/ch8/ContactServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="90" column="36" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_398_jpa_crud/ContactServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+          <folding>
+            <marker date="1491510523000" expanded="true" signature="613:679" ph="select id, f... contact" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter8/jpa-criteria/src/main/java/com/apress/prospring4/ch8/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/ch8_JPA/page_420_jpa_criteria/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_420_jpa_criteria/app-context-annotation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="44" column="71" selection-start-line="44" selection-start-column="71" selection-end-line="44" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/ch8_JPA/page_420_jpa_criteria/Contact_.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1071#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter8/spring-data-jpa-audit/src/main/java/com/apress/prospring4/ch8/ContactAuditRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/ch8_JPA/page_426_spring_data_jpa/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter8/spring-data-jpa/src/main/java/com/apress/prospring4/ch8/ContactRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_426_spring_data_jpa/SpringJPASample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_426_spring_data_jpa/Hobby.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_426_spring_data_jpa/ContactTelDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_426_spring_data_jpa/ContactServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_426_spring_data_jpa/ContactService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_426_spring_data_jpa/ContactRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_426_spring_data_jpa/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_420_jpa_criteria/SpringJPASample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="143" column="26" selection-start-line="143" selection-start-column="26" selection-end-line="143" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_426_spring_data_jpa/app-context-annotation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_431_spring_data_jpa_audit/SpringJPASample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_431_spring_data_jpa_audit/ContactAuditService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_431_spring_data_jpa_audit/AuditorAwareBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/ch8_JPA/page_431_spring_data_jpa_audit/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_431_spring_data_jpa_audit/app-context-annotation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="61" column="77" selection-start-line="61" selection-start-column="77" selection-end-line="61" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_431_spring_data_jpa_audit/ContactAuditServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter8/spring-data-jpa-audit/src/main/resources/META-INF/orm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_431_spring_data_jpa_audit/AuditorAwareBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/orm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch8_JPA/page_431_spring_data_jpa_audit/SpringJPASample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
           <folding />
         </state>
       </provider>
