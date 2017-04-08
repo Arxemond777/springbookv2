@@ -6,7 +6,8 @@ import java.util.Set;
 
 import org.springframework.context.support.GenericXmlApplicationContext;
 
-public class SpringJPASample {
+public class SpringJPASample
+{
     public static void main(String[] args) {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
         ctx.load("classpath:META-INF/spring/ch8_JPA/page_431_spring_data_jpa_audit/app-context-annotation.xml");
@@ -39,9 +40,12 @@ public class SpringJPASample {
     }
 
     private static void listContacts(List<ContactAudit> contacts) {
-        System.out.println("");
+        System.out.println("_________________________________");
         System.out.println("Listing contacts without details:");
-        for (ContactAudit contact: contacts)
-            System.out.println(contact + System.lineSeparator());
+        for (ContactAudit contact : contacts) {
+            System.out.println(contact);
+            System.out.println();
+        }
+        System.out.println("_________________________________");
     }
 }

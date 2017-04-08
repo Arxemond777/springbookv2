@@ -6,16 +6,18 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
+
 import com.google.common.collect.Lists;
 
 @Service("contactAuditService")
 @Repository
 @Transactional
-public class ContactAuditServiceImpl implements ContactAuditService {
+public class ContactAuditServiceImpl implements ContactAuditService
+{
     @Autowired
     private ContactAuditRepository contactAuditRepository;
 
-    @Transactional(readOnly=true)
+    @Transactional(readOnly = true)
     public List<ContactAudit> findAll() {
         return Lists.newArrayList(contactAuditRepository.findAll());
     }

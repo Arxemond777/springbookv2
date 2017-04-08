@@ -18,8 +18,8 @@
         http://www.springframework.org/schema/tx/spring-tx.xsd">
 
     <jdbc:embedded-database id="dataSource" type="H2">
-        <jdbc:script location="classpath:META-INF/sql/ch8_JPA/page_431_spring_data_jpa_audit/schema.sql"/>
-        <jdbc:script location="classpath:META-INF/sql/ch8_JPA/page_431_spring_data_jpa_audit/test-data.sql"/>
+        <jdbc:script location="classpath:META-INF/sql/ch8_JPA/page_439_hibernate_envers/schema.sql"/>
+        <jdbc:script location="classpath:META-INF/sql/ch8_JPA/page_439_hibernate_envers/test-data.sql"/>
     </jdbc:embedded-database>
 
     <bean id="transactionManager"
@@ -35,7 +35,7 @@
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>
         </property>
         <property name="packagesToScan"
-                  value="ch8_JPA.page_431_spring_data_jpa_audit"/>
+                  value="ch8_JPA.page_439_hibernate_envers"/>
         <property name="jpaProperties">
             <props>
                 <prop key="hibernate.dialect">
@@ -45,19 +45,40 @@
                 <prop key="hibernate.jdbc.fetch_size">50</prop>
                 <prop key="hibernate.jdbc.batch_size">10</prop>
                 <prop key="hibernate.show_sql">true</prop>
+
+                <!-- Properties for Hibernate Envers -->
+                <prop key="org.hibernate.envers.audit_table_suffix">_H</prop>
+                <prop key="org.hibernate.envers.revision_field_name">
+                    AUDIT_REVISION
+                </prop>
+                <prop key="org.hibernate.envers.revision_type_field_name">
+                    ACTION_TYPE
+                </prop>
+                <prop key="org.hibernate.envers.audit_strategy">
+                    org.hibernate.envers.strategy.ValidityAuditStrategy
+                </prop>
+                <prop key="org.hibernate.envers.audit_strategy_validity_end_rev_field_name">
+                    AUDIT_REVISION_END
+                </prop>
+                <prop key="org.hibernate.envers.audit_strategy_validity_store_revend_timestamp">
+                    True
+                </prop>
+                <prop key="org.hibernate.envers.audit_strategy_validity_revend_timestamp_field_name">
+                    AUDIT_REVISION_END_TS
+                </prop>
             </props>
         </property>
     </bean>
 
     <context:annotation-config/>
 
-    <context:component-scan base-package="ch8_JPA.page_431_spring_data_jpa_audit"/>
+    <context:component-scan base-package="ch8_JPA.page_439_hibernate_envers"/>
 
-    <jpa:repositories base-package="ch8_JPA.page_431_spring_data_jpa_audit"
+    <jpa:repositories base-package="ch8_JPA.page_439_hibernate_envers"
                       entity-manager-factory-ref="emf"
                       transaction-manager-ref="transactionManager"/>
 
     <jpa:auditing auditor-aware-ref="auditorAwareBean"/>
 
-    <bean id="auditorAwareBean" class="ch8_JPA.page_431_spring_data_jpa_audit.AuditorAwareBean"/>
+    <bean id="auditorAwareBean" class="ch8_JPA.page_439_hibernate_envers.AuditorAwareBean"/>
 </beans>

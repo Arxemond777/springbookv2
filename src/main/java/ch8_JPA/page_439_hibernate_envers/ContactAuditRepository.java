@@ -1,4 +1,4 @@
-package ch8_JPA.page_431_spring_data_jpa_audit;
+package ch8_JPA.page_439_hibernate_envers;
 
 import org.springframework.data.repository.CrudRepository;
 

@@ -13,13 +13,15 @@ import javax.persistence.Version;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.persistence.Transient;
+
 import org.hibernate.annotations.Type;
 import org.springframework.data.domain.Auditable;
 import org.joda.time.DateTime;
 
 @Entity
 @Table(name = "contact_audit")
-public class ContactAudit implements Auditable<String, Long>, Serializable {
+public class ContactAudit implements Auditable<String, Long>, Serializable
+{
     private Long id;
     private int version;
     private String firstName;
@@ -79,7 +81,7 @@ public class ContactAudit implements Auditable<String, Long>, Serializable {
         this.birthDate = birthDate;
     }
 
-    @Column(name="CREATED_BY")
+    @Column(name = "CREATED_BY")
     public String getCreatedBy() {
         return createdBy;
     }
@@ -88,8 +90,8 @@ public class ContactAudit implements Auditable<String, Long>, Serializable {
         this.createdBy = createdBy;
     }
 
-    @Column(name="CREATED_DATE")
-    @Type(type="org.jadira.usertype.dateandtime.joda.PersistentDateTime")
+    @Column(name = "CREATED_DATE")
+    @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentDateTime")
     public DateTime getCreatedDate() {
         return createdDate;
     }
@@ -98,7 +100,7 @@ public class ContactAudit implements Auditable<String, Long>, Serializable {
         this.createdDate = createdDate;
     }
 
-    @Column(name="LAST_MODIFIED_BY")
+    @Column(name = "LAST_MODIFIED_BY")
     public String getLastModifiedBy() {
         return lastModifiedBy;
     }
@@ -107,8 +109,8 @@ public class ContactAudit implements Auditable<String, Long>, Serializable {
         this.lastModifiedBy = lastModifiedBy;
     }
 
-    @Column(name="LAST_MODIFIED_DATE")
-    @Type(type="org.jadira.usertype.dateandtime.joda.PersistentDateTime")
+    @Column(name = "LAST_MODIFIED_DATE")
+    @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentDateTime")
     public DateTime getLastModifiedDate() {
         return lastModifiedDate;
     }
@@ -128,9 +130,9 @@ public class ContactAudit implements Auditable<String, Long>, Serializable {
 
     public String toString() {
         return "Contact - Id: " + id + ", First name: " + firstName
-            + ", Last name: " + lastName + ", Birthday: " + birthDate
-            + ", Create by: " + createdBy + ", Create date: " + createdDate
-            + ", Modified by: " + lastModifiedBy + ", Modified date: " 
-            + lastModifiedDate;
+                + ", Last name: " + lastName + ", Birthday: " + birthDate
+                + ", Create by: " + createdBy + ", Create date: " + createdDate
+                + ", Modified by: " + lastModifiedBy + ", Modified date: "
+                + lastModifiedDate;
     }
 }
