@@ -2,42 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="705f2052-93fa-4970-9100-61c0abbe80c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_el_api_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_web_el_impl_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_508_jsr349_custom/CheckIndividualCustomer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_508_jsr349_custom/Customer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_508_jsr349_custom/CustomerType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_508_jsr349_custom/Gender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_508_jsr349_custom/IndividualCustomerValidator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_508_jsr349_custom/Jsr349Sample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_508_jsr349_custom/MyBeanValidationService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj/CheckIndividualCustomer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj/IndividualCustomerValidator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_508_jsr349_custom/jsr349-app-context.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349-custom/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349-custom/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349-custom/src/main/java/com/apress/prospring4/ch10/CheckIndividualCustomer.java" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_508_jsr349_custom/CheckIndividualCustomer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349-custom/src/main/java/com/apress/prospring4/ch10/Customer.java" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_508_jsr349_custom/Customer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349-custom/src/main/java/com/apress/prospring4/ch10/CustomerType.java" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_508_jsr349_custom/CustomerType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349-custom/src/main/java/com/apress/prospring4/ch10/Gender.java" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_508_jsr349_custom/Gender.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349-custom/src/main/java/com/apress/prospring4/ch10/IndividualCustomerValidator.java" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_508_jsr349_custom/IndividualCustomerValidator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349-custom/src/main/java/com/apress/prospring4/ch10/Jsr349Sample.java" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_508_jsr349_custom/Jsr349Sample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349-custom/src/main/java/com/apress/prospring4/ch10/MyBeanValidationService.java" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_508_jsr349_custom/MyBeanValidationService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349-custom/src/main/resources/META-INF/spring/jsr349-app-context.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_508_jsr349_custom/jsr349-app-context.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349/src/main/java/com/apress/prospring4/ch10/Customer.java" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj/Customer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349/src/main/java/com/apress/prospring4/ch10/CustomerType.java" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj/CustomerType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349/src/main/java/com/apress/prospring4/ch10/Gender.java" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj/Gender.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349/src/main/java/com/apress/prospring4/ch10/Jsr349Sample.java" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj/Jsr349Sample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349/src/main/java/com/apress/prospring4/ch10/MyBeanValidationService.java" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj/MyBeanValidationService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter10/jsr349/src/main/resources/META-INF/spring/jsr349-app-context.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_511_jsr349_aspectj/jsr349-app-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_522_scheduled_task_annotation/Car.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_522_scheduled_task_annotation/CarRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_522_scheduled_task_annotation/CarService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_522_scheduled_task_annotation/CarServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_522_scheduled_task_annotation/ScheduleTaskAnnotationSample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_523_async_task/AsyncService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_523_async_task/AsyncServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_523_async_task/AsyncTaskSample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks/page_522_scheduled_task_annotation/car-job-app-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks/page_522_scheduled_task_annotation/task-annotation-app-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks/page_523_async_task/async-app-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch11_scheduling_tasks/page_522_scheduled_task_annotation/schema.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch11_scheduling_tasks/page_522_scheduled_task_annotation/test-data.sql" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter11/scheduled-task/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter11/scheduled-task/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter11/scheduled-task/src/main/resources/log4j.properties" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter11/scheduled-task/src/main/java/com/apress/prospring4/ch11/Car.java" afterPath="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_516_scheduled_task/Car.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter11/scheduled-task/src/main/java/com/apress/prospring4/ch11/CarRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_516_scheduled_task/CarRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter11/scheduled-task/src/main/java/com/apress/prospring4/ch11/CarService.java" afterPath="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_516_scheduled_task/CarService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter11/scheduled-task/src/main/java/com/apress/prospring4/ch11/CarServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_516_scheduled_task/CarServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter11/scheduled-task/src/main/java/com/apress/prospring4/ch11/ScheduleTaskSample.java" afterPath="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_516_scheduled_task/ScheduleTaskSample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter11/scheduled-task/src/main/resources/META-INF/config/schema.sql" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch11_scheduling_tasks/page_516_scheduled_task/schema.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter11/scheduled-task/src/main/resources/META-INF/config/test-data.sql" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch11_scheduling_tasks/page_516_scheduled_task/test-data.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter11/scheduled-task/src/main/resources/META-INF/spring/car-job-app-context.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks/page_516_scheduled_task/car-job-app-context.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/Chapter11/scheduled-task/src/main/resources/META-INF/spring/task-namespace-app-context.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks/page_516_scheduled_task/task-namespace-app-context.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springBook2.iml" afterPath="$PROJECT_DIR$/springBook2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_504_jsr349/Jsr349Sample.java" afterPath="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_504_jsr349/Jsr349Sample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_489_property_editor/prop-editor-app-context.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_489_property_editor/prop-editor-app-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_504_jsr349/jsr349-app-context.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_504_jsr349/jsr349-app-context.xml" />
     </list>
     <ignored path="springBook2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,42 +59,12 @@
     <favorites_list name="springBook2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CheckIndividualCustomer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj/CheckIndividualCustomer.java">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/Chapter11/scheduled-task-annotation/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jsr349-app-context.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_511_jsr349_aspectj/jsr349-app-context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyBeanValidationService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj/MyBeanValidationService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Jsr349Sample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj/Jsr349Sample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+            <state relative-caret-position="137">
+              <caret line="47" column="42" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -128,17 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ch8_JPA/page_431_spring_data_jpa_audit/AuditorAwareBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch8_JPA/page_439_hibernate_envers/AuditorAwareBean.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch8_JPA/page_439_hibernate_envers/app-context-annotation.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ch8_JPA/page_439_hibernate_envers/SpringJPASample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch9_transaction/page_462_transactions_annotation/Contact.java" />
-        <option value="$PROJECT_DIR$/examples/Chapter9/transactions-jta/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ch9_transaction/page_462_transactions_annotation/TxJtaSample.java" />
-        <option value="$PROJECT_DIR$/examples/Chapter9/transactions-jta/src/main/resources/META-INF/config/test-data.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch9_transaction/page_462_transactions_annotation/test-data.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/ch9_transaction/page_462_transactions_annotation/ContactServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch9_transaction/page_462_transactions_annotation/tx-jta-app-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ch9_transaction/page_480_transactions_jta/TxJtaSample.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch9_transaction/page_480_transactions_jta/test-data.sql" />
         <option value="$PROJECT_DIR$/src/main/java/ch9_transaction/page_462_transaction_annotation/Contact.java" />
@@ -169,7 +120,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_500_spring_validator/spring-validator-app-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_500_spring_validator/SpringValidatorSample.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_504_jsr349/Customer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_504_jsr349/CustomerType.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_504_jsr349/jsr349-app-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_504_jsr349/Jsr349Sample.java" />
@@ -179,6 +129,18 @@
         <option value="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj/CheckIndividualCustomer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_511_jsr349_aspectj/jsr349-app-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj/Jsr349Sample.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_516_scheduled_task/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_516_scheduled_task/ScheduleTaskSample.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks/page_516_scheduled_task/car-job-app-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_516_scheduled_task/CarServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks/page_516_scheduled_task/task-namespace-app-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_522_scheduled_task_annotation/AsyncService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_522_scheduled_task_annotation/AsyncTaskSample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_522_scheduled_task_annotation/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_523_async_task/AsyncTaskSample.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks/page_522_scheduled_task_annotation/car-job-app-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_522_scheduled_task_annotation/ScheduleTaskAnnotationSample.java" />
       </list>
     </option>
   </component>
@@ -229,7 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -336,6 +298,108 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch11_scheduling_tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page_522_scheduled_task_annotation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch11_scheduling_tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="spring" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -370,11 +434,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ch10_check_formated_and_type" />
+              <option name="myItemId" value="ch11_scheduling_tasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="page_511_jsr349_aspectj" />
+              <option name="myItemId" value="page_523_async_task" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -408,7 +472,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ch10_check_formated_and_type" />
+              <option name="myItemId" value="ch11_scheduling_tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page_522_scheduled_task_annotation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch11_scheduling_tasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -456,11 +558,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ch10_check_formated_and_type" />
+              <option name="myItemId" value="ch11_scheduling_tasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="page_511_jsr349_aspectj" />
+              <option name="myItemId" value="page_523_async_task" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -486,7 +588,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ch10_check_formated_and_type" />
+              <option name="myItemId" value="ch11_scheduling_tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page_522_scheduled_task_annotation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch11_scheduling_tasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -536,11 +668,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter10" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsr349-assertTrue" />
+              <option name="myItemId" value="Chapter11" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -558,11 +686,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter10" />
+              <option name="myItemId" value="Chapter11" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jsr349-assertTrue" />
+              <option name="myItemId" value="scheduled-task-annotation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter11" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduled-task-annotation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBook2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter11" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scheduled-task-annotation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -596,11 +780,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter10" />
+              <option name="myItemId" value="Chapter11" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jsr349-assertTrue" />
+              <option name="myItemId" value="scheduled-task-annotation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -638,11 +822,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter10" />
+              <option name="myItemId" value="Chapter11" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jsr349-assertTrue" />
+              <option name="myItemId" value="scheduled-task-annotation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -670,13 +854,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ch10" />
+              <option name="myItemId" value="ch11" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -694,60 +878,20 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/sql/ch11_scheduling_tasks/page_522_scheduled_task_annotation" />
+      <recent name="$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_522_scheduled_task_annotation" />
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks/page_523_async_task" />
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks/page_522_scheduled_task_annotation" />
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch9_transaction/page_475_transaction_programatic" />
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF/spring/CH6_JDBC/page_308_spring_jdbc_namedparam" />
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF/spring/CH6_JDBC/page_300_spring_jdbc_embedded" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_511_jsr349_aspectj" />
-      <recent name="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj" />
-      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type" />
-      <recent name="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_508_jsr349_custom" />
-      <recent name="$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_508_jsr349_custom" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Jsr349Sample (2)">
-    <configuration default="false" name="ConvFormatServExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ch10_check_formated_and_type.page_498_custom_formatter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ch10_check_formated_and_type.page_498_custom_formatter.ConvFormatServExample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springBook2" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpringValidatorSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ch10_check_formated_and_type.page_500_spring_validator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ch10_check_formated_and_type.page_500_spring_validator.SpringValidatorSample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springBook2" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ScheduleTaskAnnotationSample">
     <configuration default="false" name="Jsr349Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -796,6 +940,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="ch10_check_formated_and_type.page_511_jsr349_aspectj.Jsr349Sample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="springBook2" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ScheduleTaskSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch11_scheduling_tasks.page_516_scheduled_task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ch11_scheduling_tasks.page_516_scheduled_task.ScheduleTaskSample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="springBook2" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ScheduleTaskAnnotationSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch11_scheduling_tasks.page_522_scheduled_task_annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ch11_scheduling_tasks.page_522_scheduled_task_annotation.ScheduleTaskAnnotationSample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1344,19 +1528,19 @@
       <item index="1" class="java.lang.String" itemvalue="Maven.compile exec:java" />
       <item index="2" class="java.lang.String" itemvalue="Maven.clean" />
       <item index="3" class="java.lang.String" itemvalue="Maven.clean package" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ConvFormatServExample" />
-      <item index="5" class="java.lang.String" itemvalue="Application.SpringValidatorSample" />
-      <item index="6" class="java.lang.String" itemvalue="Application.Jsr349Sample" />
-      <item index="7" class="java.lang.String" itemvalue="Application.Jsr349Sample (1)" />
-      <item index="8" class="java.lang.String" itemvalue="Application.Jsr349Sample (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Jsr349Sample" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Jsr349Sample (1)" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Jsr349Sample (2)" />
+      <item index="7" class="java.lang.String" itemvalue="Application.ScheduleTaskSample" />
+      <item index="8" class="java.lang.String" itemvalue="Application.ScheduleTaskAnnotationSample" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Jsr349Sample (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Jsr349Sample (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Jsr349Sample" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SpringValidatorSample" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ConvFormatServExample" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ScheduleTaskAnnotationSample" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ScheduleTaskSample" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Jsr349Sample (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Jsr349Sample (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Jsr349Sample" />
       </list>
     </recent_temporary>
   </component>
@@ -1381,12 +1565,13 @@
       <workItem from="1491591394748" duration="3234000" />
       <workItem from="1491629815896" duration="526000" />
       <workItem from="1491653751242" duration="13720000" />
-      <workItem from="1491720471845" duration="8654000" />
+      <workItem from="1491720471845" duration="8794000" />
+      <workItem from="1491758303551" duration="1882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53317000" />
+    <option name="totallyTimeSpent" value="55339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1399,14 +1584,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26626506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41084337" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3190272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1443,320 +1628,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch9_transaction/page_475_transaction_programatic/ContactService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch9_transaction/page_475_transaction_programatic/ContactServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="42" column="60" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch9_transaction/page_475_transaction_programatic/TxProgrammaticSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch9_transaction/page_475_transaction_programatic/tx-programmatic-app-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="22" column="73" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/Chapter9/1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/Chapter9/transactions-jta/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="97" column="27" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch9_transaction/page_480_transactions_jta/tx-jta-app-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch9_transaction/page_480_transactions_jta/ContactServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="45" column="67" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch9_transaction/page_480_transactions_jta/TxJtaSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/ch9_transaction/page_480_transactions_jta/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/ch9_transaction/page_480_transactions_jta/test-data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/Chapter10/property-editor/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/config/ch10_check_formated_and_type/1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_489_property_editor/prop-editor-app-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="e#1315#1339#0" expanded="false" />
-            <element signature="e#1731#1755#0" expanded="false" />
-            <element signature="e#1777#1800#0" expanded="false" />
-            <element signature="e#1823#1847#0" expanded="false" />
-            <element signature="e#1873#1900#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/config/ch10_check_formated_and_type/page_489_property_editor/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_489_property_editor/PropEditorExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_489_property_editor/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_489_property_editor/DateTimeEditorRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/Chapter10/converter/src/main/java/com/apress/prospring4/ch10/StringToDateTimeConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_492_converter/conv-service-app-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_492_converter/ConvServExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_492_converter/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/Chapter10/converter-multiple-types/src/main/java/com/apress/prospring4/ch10/ConvServExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_495_converter_multiple_types/ConvServExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_495_converter_multiple_types/conv-service-app-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="90" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_495_converter_multiple_types/AnotherContact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/Chapter10/custom-formatter/src/main/java/com/apress/prospring4/ch10/ApplicationConversionServiceFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/Chapter10/custom-formatter/src/main/java/com/apress/prospring4/ch10/ConvFormatServExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_498_custom_formatter/ConvFormatServExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_498_custom_formatter/ApplicationConversionServiceFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_498_custom_formatter/conv-format-service-app-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_500_spring_validator/SpringValidatorSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_500_spring_validator/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_500_spring_validator/spring-validator-app-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="96" selection-start-line="9" selection-start-column="96" selection-end-line="9" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/Chapter10/jsr349/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="45" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="226" column="21" selection-start-line="226" selection-start-column="21" selection-end-line="226" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter10/jsr349/pom.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_504_jsr349/Jsr349Sample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1764,7 +1640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1772,7 +1647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1780,7 +1654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="15" column="15" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1788,7 +1661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1796,9 +1668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="e#216#217#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1806,7 +1675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1814,7 +1682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1822,23 +1689,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="93" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="93" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj/CheckIndividualCustomer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_511_jsr349_aspectj/jsr349-app-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
-          <folding />
+        <state relative-caret-position="-316">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1846,14 +1703,313 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch10_check_formated_and_type/page_511_jsr349_aspectj/jsr349-app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj/CheckIndividualCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj/CustomerType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch10_check_formated_and_type/page_511_jsr349_aspectj/Jsr349Sample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks/1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="228" column="33" selection-start-line="228" selection-start-column="33" selection-end-line="228" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter11/async-task/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter11/task-executor/src/main/resources/META-INF/spring/app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter11/task-executor/src/main/java/com/apress/prospring4/ch11/TaskExecutorSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter11/task-executor/src/main/java/com/apress/prospring4/ch11/TaskToExecute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/ch11_scheduling_tasks/1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter11/scheduled-task/src/main/resources/META-INF/spring/task-namespace-app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter11/scheduled-task/src/main/resources/META-INF/spring/car-job-app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="42" column="56" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/ch11_scheduling_tasks/page_516_scheduled_task/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_516_scheduled_task/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks/page_516_scheduled_task/task-namespace-app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks/page_516_scheduled_task/car-job-app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="51" column="88" selection-start-line="51" selection-start-column="88" selection-end-line="51" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_516_scheduled_task/CarServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_516_scheduled_task/ScheduleTaskSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks/page_523_async_task/async-app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks/page_522_scheduled_task_annotation/async-app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_523_async_task/AsyncTaskSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_523_async_task/AsyncServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_523_async_task/AsyncService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/sql/ch11_scheduling_tasks/page_522_scheduled_task_annotation/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter11/scheduled-task-annotation/src/main/java/com/apress/prospring4/ch11/CarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_522_scheduled_task_annotation/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_522_scheduled_task_annotation/CarRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_522_scheduled_task_annotation/CarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_522_scheduled_task_annotation/CarServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter11/scheduled-task-annotation/src/main/resources/META-INF/spring/car-job-app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter11/scheduled-task-annotation/src/main/resources/META-INF/spring/task-annotation-app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks/page_522_scheduled_task_annotation/task-annotation-app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/ch11_scheduling_tasks/page_522_scheduled_task_annotation/car-job-app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch11_scheduling_tasks/page_522_scheduled_task_annotation/ScheduleTaskAnnotationSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="132" selection-start-line="7" selection-start-column="132" selection-end-line="7" selection-end-column="132" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter11/scheduled-task-annotation/src/main/java/com/apress/prospring4/ch11/CarServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter11/scheduled-task-annotation/src/main/java/com/apress/prospring4/ch11/ScheduleTaskAnnotationSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/Chapter11/scheduled-task-annotation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="47" column="42" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="42" />
           <folding />
         </state>
       </provider>

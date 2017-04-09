@@ -226,6 +226,8 @@
             <version>2.2</version>
         </dependency>
 
+        <!--CH11 scheduling tasks-->
+
 
     </dependencies>
 
