@@ -13,7 +13,8 @@
 
     <context:annotation-config/>
 
-    <context:property-placeholder location="classpath:META-INF/config/ch10_check_formated_and_type/page_489_property_editor/application.properties"/>
+    <context:property-placeholder
+            location="classpath:META-INF/config/ch10_check_formated_and_type/page_489_property_editor/application.properties"/>
 
     <bean id="customEditorConfigurer"
           class="org.springframework.beans.factory.config.CustomEditorConfigurer"

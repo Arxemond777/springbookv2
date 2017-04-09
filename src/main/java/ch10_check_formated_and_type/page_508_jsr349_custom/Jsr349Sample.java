@@ -1,4 +1,4 @@
-package ch10_check_formated_and_type.page_504_jsr349;
+package ch10_check_formated_and_type.page_508_jsr349_custom;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -11,24 +11,22 @@ public class Jsr349Sample
 {
     public static void main(String[] args) {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
-        ctx.load("classpath:META-INF/spring/ch10_check_formated_and_type/page_504_jsr349/jsr349-app-context.xml");
+        ctx.load("classpath:META-INF/spring/ch10_check_formated_and_type/page_508_jsr349_custom/jsr349-app-context.xml");
         ctx.refresh();
 
         MyBeanValidationService myBeanValidationService =
                 ctx.getBean("myBeanValidationService", MyBeanValidationService.class);
 
         Customer customer = new Customer();
-        customer.setFirstName("C");
+        customer.setFirstName("Chris");
         customer.setLastName("Schaefer");
-        customer.setCustomerType(null);
+        customer.setCustomerType(CustomerType.INDIVIDUAL);
         customer.setGender(null);
 
         validateCustomer(customer, myBeanValidationService);
     }
 
-    private static void validateCustomer(Customer customer,
-                                         MyBeanValidationService myBeanValidationService) {
-
+    private static void validateCustomer(Customer customer, MyBeanValidationService myBeanValidationService) {
         Set<ConstraintViolation<Customer>> violations = new HashSet<ConstraintViolation<Customer>>();
         violations = myBeanValidationService.validateCustomer(customer);
 
@@ -38,11 +36,12 @@ public class Jsr349Sample
     private static void listViolations(Set<ConstraintViolation<Customer>> violations) {
         System.out.println("No. of violations: " + violations.size());
 
-        for (ConstraintViolation<Customer> violation : violations) {
-            System.out.println("Validation error for property: " +
-                    violation.getPropertyPath()
-                    + " with value: " + violation.getInvalidValue()
-                    + " with error message: " + violation.getMessage());
-        }
+        for (ConstraintViolation<Customer> violation : violations)
+            System.out.println(
+                    "Validation error for property: " + violation.getPropertyPath()
+                            + " with value: " + violation.getInvalidValue()
+                            + " with error message: " + violation.getMessage()
+            );
+
     }
 }

@@ -7,7 +7,8 @@
         http://www.springframework.org/schema/context 
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="ch10_check_formated_and_type.page_504_jsr349"/>
+    <context:component-scan
+            base-package="ch10_check_formated_and_type.page_511_jsr349_aspectj"/>
 
     <bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"/>
 </beans>
