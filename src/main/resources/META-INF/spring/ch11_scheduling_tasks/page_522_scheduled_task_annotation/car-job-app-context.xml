@@ -17,8 +17,10 @@
         http://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
 
     <jdbc:embedded-database id="dataSource" type="H2">
-        <jdbc:script location="classpath:META-INF/sql/ch11_scheduling_tasks/page_522_scheduled_task_annotation/schema.sql"/>
-        <jdbc:script location="classpath:META-INF/sql/ch11_scheduling_tasks/page_522_scheduled_task_annotation/test-data.sql"/>
+        <jdbc:script
+                location="classpath:META-INF/sql/ch11_scheduling_tasks/page_522_scheduled_task_annotation/schema.sql"/>
+        <jdbc:script
+                location="classpath:META-INF/sql/ch11_scheduling_tasks/page_522_scheduled_task_annotation/test-data.sql"/>
     </jdbc:embedded-database>
 
     <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">

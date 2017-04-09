@@ -4,10 +4,11 @@ import java.util.concurrent.Future;
 
 import org.springframework.context.support.GenericXmlApplicationContext;
 
-public class AsyncTaskSample {
+public class AsyncTaskSample
+{
     public static void main(String[] args) {
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
-        ctx.load("classpath:META-INF/spring/ch11_scheduling_tasks/page_522_scheduled_task_annotation/async-app-context.xml");
+        ctx.load("classpath:META-INF/spring/ch11_scheduling_tasks/page_523_async_task/async-app-context.xml");
         ctx.refresh();
 
         AsyncService asyncService = ctx.getBean("asyncService", AsyncService.class);

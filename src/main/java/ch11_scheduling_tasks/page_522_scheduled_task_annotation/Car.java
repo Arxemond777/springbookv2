@@ -13,8 +13,9 @@ import org.hibernate.annotations.Type;
 import org.joda.time.DateTime;
 
 @Entity
-@Table(name="car")
-public class Car {
+@Table(name = "car")
+public class Car
+{
     private Long id;
     private String licensePlate;
     private String manufacturer;
@@ -29,23 +30,23 @@ public class Car {
         return id;
     }
 
-    @Column(name="LICENSE_PLATE")
+    @Column(name = "LICENSE_PLATE")
     public String getLicensePlate() {
         return licensePlate;
     }
 
-    @Column(name="MANUFACTURER")
+    @Column(name = "MANUFACTURER")
     public String getManufacturer() {
         return manufacturer;
     }
 
-    @Column(name="MANUFACTURE_DATE")
-    @Type(type="org.jadira.usertype.dateandtime.joda.PersistentDateTime")
+    @Column(name = "MANUFACTURE_DATE")
+    @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentDateTime")
     public DateTime getManufactureDate() {
         return manufactureDate;
     }
 
-    @Column(name="AGE")
+    @Column(name = "AGE")
     public int getAge() {
         return age;
     }
