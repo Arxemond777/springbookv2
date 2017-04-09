@@ -42,7 +42,8 @@ public class ContactServiceImpl implements ContactService
         contactB.setLastName(contact.getLastName());
         if (contact.getId() == null) {
             emA.persist(contact);
-            //emB.persist(contactB);
+//            emB.persist(contactB);
+            /** Если какая-либо ошибка, то транзакция откатывается */
             throw new JpaSystemException(new PersistenceException());
         } else {
             emA.merge(contact);

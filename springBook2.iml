@@ -67,5 +67,8 @@
     <orderEntry type="library" name="Maven: com.atomikos:transactions-api:3.9.3" level="project" />
     <orderEntry type="library" name="Maven: com.atomikos:atomikos-util:3.9.3" level="project" />
     <orderEntry type="library" name="Maven: com.atomikos:transactions-hibernate3:3.9.3" level="project" />
+    <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate:hibernate-validator:5.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.0.0" level="project" />
   </component>
 </module>

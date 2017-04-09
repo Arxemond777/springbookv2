@@ -14,7 +14,8 @@ import java.util.List;
 
 @Service("contactService")
 @Repository
-public class ContactServiceImpl implements ContactService {
+public class ContactServiceImpl implements ContactService
+{
     private ContactRepository contactRepository;
     private TransactionTemplate transactionTemplate;
 
@@ -38,7 +39,8 @@ public class ContactServiceImpl implements ContactService {
 
     @Override
     public long countAll() {
-        return transactionTemplate.execute(new TransactionCallback<Long>() {
+        return transactionTemplate.execute(new TransactionCallback<Long>()
+        {
             public Long doInTransaction(TransactionStatus transactionStatus) {
                 return em.createNamedQuery("Contact.countAll",
                         Long.class).getSingleResult();
