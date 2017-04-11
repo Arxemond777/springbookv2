@@ -30,7 +30,16 @@
     </target>
 
     <target name="compile_for_tomcat" depends="clean">
-        <javac srcdir="src/main/java/ch12_RMI_RPC_JMS_REST_SpringInvoke/page_530_spring_invoker" destdir="web/WEB-INF/classes" failonerror="true" fork="true">
+        <!--<echo message="compile classpath: ${compile_classpath}"/>-->
+        <!--ch12_RMI_RPC_JMS_REST_SpringInvoke/page_530_spring_invoker-->
+        <javac
+                includeantruntime="false"
+                srcdir="src/main/java/"
+                destdir="web/WEB-INF/classes"
+                failonerror="true"
+                fork="true"
+                classpath="${compile_classpath}"
+        >
             <classpath refid="common_library"/>
         </javac>
     </target>
@@ -41,5 +50,13 @@
         </javac>
     </target>
 
+    <target name="test">
+
+        <echo message="compile classpath: ${compile_classpath}"/>
+        <echo message="runtime classpath: ${runtime_classpath}"/>
+        <echo message="test classpath:    ${test_classpath}"/>
+        <echo message="plugin classpath:  ${plugin_classpath}"/>
+
+    </target>
 
 </project>

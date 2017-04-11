@@ -12,25 +12,24 @@ import com.google.common.collect.Lists;
 @Service("contactService")
 @Repository
 @Transactional
-public class ContactServiceImpl implements ContactService
-{
+public class ContactServiceImpl implements ContactService {
     @Autowired
     private ContactRepository contactRepository;
 
     @Override
-    @Transactional(readOnly = true)
+    @Transactional(readOnly=true)
     public List<Contact> findAll() {
         return Lists.newArrayList(contactRepository.findAll());
     }
 
     @Override
-    @Transactional(readOnly = true)
+    @Transactional(readOnly=true)
     public List<Contact> findByFirstName(String firstName) {
         return contactRepository.findByFirstName(firstName);
     }
 
     @Override
-    @Transactional(readOnly = true)
+    @Transactional(readOnly=true)
     public Contact findById(Long id) {
         return contactRepository.findOne(id);
     }
