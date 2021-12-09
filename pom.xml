@@ -18,7 +18,7 @@
         <usertype.version>3.0.0.GA</usertype.version>
         <hibernate.entitymanager.version>4.2.3.Final</hibernate.entitymanager.version>
         <atomikos.version>3.9.3</atomikos.version>
-        <jackson.version>2.3.2</jackson.version>
+        <jackson.version>2.9.10.8</jackson.version>
         <security.version>3.2.1.RELEASE</security.version>
     </properties>
 
